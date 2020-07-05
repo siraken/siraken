@@ -1,0 +1,443 @@
+@charset "UTF-8";
+/* =======================================
+# スタンダード型カスタマイズ
+======================================= */
+/*
+-----------------------------------------
+
+【CSS編集 目次】
+(1)基本のスタイル
+(2)ヘッダーエリアのスタイル
+(3)メインエリアのスタイル
+(4)サイドエリアのスタイル
+(5)ボタン設定
+(6)その他、拡張
+
+※CSS編集で広告を修正しないでください
+（規約違反に該当する可能性があります）
+
+-----------------------------------------
+*/
+/*
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+
+　(1)基本のスタイル
+
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+*/
+/* (1-1) 基本テキスト全体
+--------------------------------------------*/
+/* 地色テキスト */
+html {
+color: #333333;
+}
+
+/* リンク */
+a {
+color: #3970B5;
+}
+
+/* 訪問済みリンク */
+a:visited {
+color: #a27ea2;
+}
+
+/* 淡色テキスト */
+.skin-textQuiet {
+color: #999999;
+}
+
+/* 強調色テキスト */
+.skin-textLoud {
+color: #ff3399;
+}
+
+/* (1-2) 基本背景
+--------------------------------------------*/
+/* コンテンツ背景、ヘッダー以下の背景色 */
+.skin-blogBody, .skin-blogBodyInner {
+background-color: #ffffff;
+}
+
+/* 淡色背景, 自分のコメントエリアの背景色 */
+.skin-bgQuiet {
+background-color: #f7f7f7;
+}
+
+/* (1-3) 基本境界線
+--------------------------------------------*/
+/* 境界線（強） */
+.skin-borderLoud {
+border-color: #cccccc;
+}
+
+/* 境界線（弱） */
+.skin-borderQuiet {
+border-color: #e5e5e5;
+}
+
+/*
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+
+　(2)ヘッダーエリアのスタイル
+
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+*/
+/* (2-1) ヘッダー背景
+--------------------------------------------*/
+/* ヘッダー背景 */
+.skin-bgHeader {
+background-color: #ffffff;
+}
+
+/* (2-2) ヘッダータイトル、説明文
+--------------------------------------------*/
+/* ブログタイトルエリア、ヘッダー画像の下にテキストを隠す */
+.skin-blogTitle {
+z-index: -1;
+}
+
+/* ブログタイトル */
+.skin-blogMainTitle {
+color: #333333;
+margin-bottom: 10px;
+font-size: 27px;
+}
+
+/* ブログ説明文 */
+.skin-blogSubTitle {
+color: #999999;
+font-size: 16px;
+}
+
+/* ヘッダータイトル */
+.skin-headerTitle {
+padding-top: 80px;
+padding-bottom: 80px;
+text-align: center;
+}
+
+/*
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+
+　(3)メインエリアのスタイル
+
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+*/
+/* (3-1-a) メイン背景
+--------------------------------------------*/
+/* メインエリア背景 */
+.skin-bgMain {
+background-color: #ffffff;
+}
+
+/* (3-1-b) メイン背景 内側
+--------------------------------------------*/
+/* メインエリア背景 内側 レイアウト */
+.skin-blogMainInner {
+  padding: 30px 0 10px;
+}
+
+/* (3-2) メインタイトル
+--------------------------------------------*/
+/* 記事タイトル */
+.skin-entryTitle {
+color: #333333;
+border-bottom: 1px solid #e5e5e5;
+margin-bottom: 20px;
+padding-bottom: 15px;
+}
+
+/* 「画像付き記事」「同じテーマの記事」などの見出し */
+.skin-mainWidgetTitle {
+color: #333333;
+}
+
+/* (3-3) ブログナビ
+--------------------------------------------*/
+/* (3-3-a) ブログナビ上部
+--------------------------------------------*/
+/* 背景、境界線 */
+.skin-blogHeaderNav {
+border-color: rgba(0, 0, 0, 0.2);
+background-color: #ffffff;
+}
+
+/* 背景 */
+.skin-blogHeaderNavInner {
+}
+
+/* テキスト */
+.skin-topNavText, .skin-topNavText:hover, .skin-topNavText:visited {
+color: #999999;
+}
+
+/* アイコン */
+.skin-topNavIcon {
+color: #999999;
+}
+
+/* (3-3-b) ブログナビ下部
+--------------------------------------------*/
+/* 背景、境界線　*/
+.skin-blogFooterNavInner {
+border-color: #cccccc;
+background-color: #ffffff;
+}
+
+/* テキスト */
+.skin-bottomNavText, .skin-bottomNavText:hover, .skin-bottomNavText:visited {
+color: #999999;
+}
+
+/* アイコン */
+.skin-bottomNavIcon {
+color: #999999;
+}
+
+/*
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+
+　(4)サイドエリアのスタイル
+
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+*/
+/* (4-1) サイドテキスト全体
+--------------------------------------------*/
+/* サイドモジュールタイトル */
+.skin-widgetTitle {
+color: #666666;
+border-bottom: 1px solid #e5e5e5;
+padding-bottom: 10px;
+margin-bottom: 6px;
+}
+
+/* 2カラムサイドバー,3カラム:広いサイドバー */
+/* 3カラム:狭いサイドバー */
+/* サイド基本テキスト */
+.skin-blogSubA, .skin-blogSubB {
+}
+
+/* サイド強調色テキスト */
+.skin-sideTextLoud {
+color: #ff3399;
+}
+
+/* サイドリンク色（基本） */
+.skin-calendar a, .skin-linkListToggle, .skin-linkList a, .skin-linkChildList a, .skin-rankingList a, .skin-sideLink {
+}
+
+/* サイドリンク色（マウスオーバー） */
+.skin-calendar a:hover, .skin-linkList a:hover, .skin-linkChildList a:hover, .skin-rankingList a:hover, .skin-sideLink:hover {
+}
+
+/* サイドリンク色（マウスオーバー） */
+.skin-calendar a:visited, .skin-linkList a:visited, .skin-linkChildList a:visited, .skin-rankingList a:visited, .skin-sideLink:visited {
+}
+
+/* (4-2) サイド境界線
+--------------------------------------------*/
+/* 境界線 */
+.skin-sideBorder {
+border-color: #e5e5e5;
+}
+
+/* (4-3) サイドモジュール
+--------------------------------------------*/
+/* (4-3-a) カレンダー
+--------------------------------------------*/
+/* 記事が存在するカレンダー日付背景 */
+.skin-calendarDate.is-active {
+background-color: #DFF2FF;
+}
+
+/* カレンダー */
+#calendar .skin-widgetTitle {
+border-bottom: 0;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+/* (4-3-b) アーカイブナビ
+--------------------------------------------*/
+/* アーカイブナビ */
+.skin-archiveNavTabs a, .skin-archiveNavTabs a:hover, .skin-archiveNavTabs a:visited {
+color: #999999;
+}
+
+/* アーカイブナビ 選択時 */
+.skin-archiveNavTabs a.is-active, .skin-archiveNavTabs a.is-active:hover, .skin-archiveNavTabs a.is-active:visited {
+color: #333333;
+}
+
+/* (4-3-c) プロフィール
+--------------------------------------------*/
+/* プロフィール */
+#profile .skin-widgetTitle {
+border-bottom: 0;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+/*
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+
+(5)ボタン設定
+
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+*/
+/* (5-1) ボタン全体
+--------------------------------------------*/
+/* 通常ボタン */
+.skin-btn {
+border-color: #e5e5e5;
+background-color: #ffffff;
+color: #999999;
+}
+
+/* 通常ボタン（マウスオーバー、訪問済み） */
+.skin-btn:hover, .skin-btn:visited {
+color: #999999;
+}
+
+/* 強調ボタン */
+.skin-btnPrimary {
+border-color: #404040;
+background-color: #505050;
+color: #ffffff;
+}
+
+/* 強調ボタン（マウスオーバー、訪問済み） */
+.skin-btnPrimary:hover, .skin-btnPrimary:visited {
+color: #ffffff;
+}
+
+/* (5-2) ページ送りボタンの  << 次へ 、前へ >> 、「次の記事タイトル」 >> ボタン
+--------------------------------------------*/
+/* 前後ページ送りボタン */
+.skin-btnPaging {
+border-color: #cccccc;
+background-color: #dedede;
+color: #333333;
+}
+
+/* 前後ページ送りボタン（マウスオーバー、訪問済み） */
+.skin-btnPaging:hover, .skin-btnPaging:visited {
+color: #333333;
+}
+
+/* ページ送りの矢印アイコン*/
+.skin-btnPagingIcon {
+color: #a9a9a9;
+}
+
+/* 記事中ページ送りの次 */
+.skin-entryPagingNext, .skin-entryPagingNext:hover, .skin-entryPagingNext:visited {
+color: #3970B5;
+}
+
+/* 記事中ページ送りの前 */
+.skin-entryPagingPrev, .skin-entryPagingPrev:hover, .skin-entryPagingPrev:visited {
+color: #3970B5;
+}
+
+/* (5-3) 目次ナビゲーション
+--------------------------------------------*/
+/* 目次ナビゲーション */
+.skin-btnIndex {
+border-color: #e5e5e5;
+background-color: #ffffff;
+color: #999999;
+}
+
+/* 目次ナビゲーション（マウスオーバー、訪問済み） */
+.skin-btnIndex:hover, .skin-btnIndex:visited {
+color: #999999;
+}
+
+/* 目次ナビゲーション 選択時 */
+.skin-btnIndex.is-active {
+border-color: #cccccc;
+background-color: #e0edf7;
+color: #333333;
+}
+
+/* 目次ナビゲーション 無効時 */
+.skin-btnIndex.is-disabled {
+border-color: #cccccc;
+background-color: #f6f7f8;
+color: #979696;
+}
+
+/* (5-4) サイドボタン
+--------------------------------------------*/
+/* サイド通常ボタン */
+.skin-btnSide {
+border-color: #e5e5e5;
+background-color: #ffffff;
+color: #999999;
+}
+
+/* サイド通常ボタン（マウスオーバー、訪問済み） */
+.skin-btnSide:hover, .skin-btnSide:visited {
+color: #999999;
+}
+
+/* サイド強調ボタン */
+.skin-btnSidePrimary {
+border-color: #404040;
+background-color: #505050;
+color: #ffffff;
+}
+
+/* サイド強調ボタン（マウスオーバー、訪問済み） */
+.skin-btnSidePrimary:hover, .skin-btnSidePrimary:visited {
+color: #ffffff;
+}
+
+/* (5-5) 記事一覧 月別
+--------------------------------------------*/
+/* 記事一覧 月別 ボタンテキスト */
+.skin-btnArchive {
+border-color: #e5e5e5;
+background-color: #ffffff;
+color: #999999;
+}
+
+/* 記事一覧 月別 ボタンテキスト（マウスオーバー、訪問済み） */
+.skin-btnArchive:hover, .skin-btnArchive:visited {
+color: #999999;
+}
+
+/* 記事一覧 月別 ボタンテキスト 選択時 */
+.skin-btnArchive.is-active {
+background-color: #e0edf7;
+color: #333333;
+}
+
+/* 記事一覧 月別 ボタンテキスト 0件 */
+.skin-btnArchive.is-disabled {
+background-color: #f0eff5;
+color: #cccccc;
+}
+
+/*
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+
+(6) その他、拡張
+
+＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊:::＊
+*/
+/* (6-1) 記事一覧
+--------------------------------------------*/
+/* 記事一覧 背景 レイアウト */
+.skin-blogArchiveBody {
+padding: 30px 30px 0 30px;
+}
+
+/* (6-2) メッセージ
+--------------------------------------------*/
+/* メッセージ 背景 レイアウト */
+.skin-message {
+  padding: 30px;
+}
