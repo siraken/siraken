@@ -11,50 +11,10 @@
 <link rel="apple-touch-icon" href="files/icon192.png">
 <link rel="manifest" href="files/manifest.json">
 <!-- Bootstrap Styles -->
-<link rel="stylesheet" type="text/css" href="files/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="previous/files/fontawesome/css/all.css">
 <link rel="shortcut icon" href="files/favicon.ico">
-<style>
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap&subset=japanese');
-body{ font-family: 'Noto Sans JP', sans-serif !important; }
-.myProfileImg { pointer-events: none; }
-h1, h2, p { cursor: default; }
-.card { border: none; }
-.main { margin: 0 10%; position: relative; top: 2em; }
-@media (min-width: 768px){
-  .main { margin: 0 14%; top: 6.7em; }
-  .textVerticalCenter { margin: auto 0; }
-}
-.myTitle { position: relative; left: 4px; }
-.link { margin: 5px; transition: .3s; }
-.link:hover { opacity: .5; }
-.links { display: block; }
-footer { margin: 5px; text-align: center; }
-footer p, img { display: inline; }
-.novaLogo {
-  width: 7rem;
-  position: relative;
-  bottom: 3px;
-  opacity: .5;
-  transition: .3s;
-}
-.novaLogo:hover { opacity: .2; }
-.prevButton { visibility: hidden; opacity: 0; transition-property: display, opacity; transition-duration: .3s;}
-.secret { transition: .2s; }
-.secret:hover { opacity: .5; cursor: help; }
-.hyokkori { position: absolute; top: 0; right: 0; width: 7%; filter: grayscale(); opacity: 0; transition: 1s; }
-.hyokkori:hover { opacity: 1; width:20%; }
-</style>
-<!-- Bootstrap JS -->
-<script type="text/javascript" src="files/bootstrap.min.js"></script>
-<script type="text/javascript">
-  function goToPrev() {
-    var showMe = document.getElementById("youGot");
-    alert("Oh, you found me!");
-    showMe.style.visibility = "visible";
-    showMe.style.opacity = "1";
-  }
-</script>
+<link rel="stylesheet" type="text/css" href="style.css">
 <!-- ServiceWorker -->
 <script>
 if ('serviceWorker' in navigator) {
@@ -68,11 +28,44 @@ if ('serviceWorker' in navigator) {
 
 <body>
 
-<div class="main">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+  <ul class="nav navbar-nav">
+    <li class="dropdown">
+      <a class="navbar-brand dropdown" data-toggle="dropdown" href="#" alt="Links here" title="Links here">Kento Shirasawa</a></a>
+      <ul class="dropdown-menu shadow-sm" id="BrandDropdown" role="menu">
+        <h3>
+          <a class="dropdown-item text-muted" target="_blank" href="https://twitter.com/Sira_Kento" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a class="dropdown-item text-muted" target="_blank" href="https://www.facebook.com/sira.kento" title="Twitter"><i class="fab fa-facebook"></i></a>
+          <a class="dropdown-item text-muted" target="_blank" href="https://www.instagram.com/sira_kento" title="Twitter"><i class="fab fa-instagram"></i></a>
+          <a class="dropdown-item text-muted" target="_blank"  href="https://www.youtube.com/c/SiraKen" title="YouTube Channel"><i class="fab fa-youtube"></i></a>
+          <a class="dropdown-item text-muted" target="_blank" href="https://github.com/SiraKen" title="GitHub"><i class="fab fa-github"></i></a>
+        </h3>
+      </ul>
+    </li>
+  </ul>
+  <!---->
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe langButton"></i></a>
+      <div class="dropdown-menu dropdown-menu-right shadow-sm" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#ja">日本語</a>
+        <a class="dropdown-item disabled" href="#en">English</a>
+        <a class="dropdown-item disabled" href="#de">Deutsch</a>
+        <a class="dropdown-item disabled" href="#fr">Français</a>
+        <a class="dropdown-item disabled" href="#eo">Esperanto</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+<!-- Main -->
+<main>
+<div class="container" style="margin-top: 7rem;">
   <div class="card">
     <div class="row no-gutters">
       <div class="col-md-6 order-md-2">
-        <img src="files/shirasawa_kento.jpg" alt="My Profile Image" class="img-fluid rounded-circle shadow-sm myProfileImg" width="100%">
+        <img src="files/shirasawa_kento.jpg" alt="My Profile Image" class="img-fluid rounded-circle shadow myProfileImg" width="100%">
       </div>
       <div class="col-md-6 textVerticalCenter order-md-1">
         <div class="card-body">
@@ -80,28 +73,49 @@ if ('serviceWorker' in navigator) {
           <h2 class="h4 text-muted">
             <span class="myTitle">- A Creator.</span>
           </h2>
-          <a href="previous/index.html" class="prevButton btn btn-info" id="youGot" role="button">Go to my previous website...</a>
+          <p class="mt-3 contents" id="intro">
+            出身：岩手県大船渡市<br>
+            趣味：アニメ・映画観賞、音楽、ラジオ、ゲーム、モノ作り、語学など<br>
+          </p>
+          <p class="mt-3 contents" id="text">
+            小学5年生の頃にYouTuberという存在に衝撃を受けた時から、常に新しいモノに興味を持ち、偏見をもたず自分自身の体験を頼りに、様々なことに挑戦しています。<br>
+            
+          </p>
         </div>
       </div>
     </div>
   </div>
 </div>
+</main>
 
-<footer class="fixed-bottom">
-<h3><span class="links">
-  <a class="text-muted link" href="https://twitter.com/Sira_Kento" title="Twitter"><i class="fab fa-twitter"></i></a>
-  <a class="text-muted link" href="https://www.youtube.com/c/SiraKen" title="YouTube Channel"><i class="fab fa-youtube"></i></a>
-  <a class="text-muted link" href="https://github.com/SiraKen" title="GitHub"><i class="fab fa-github"></i></a>
-</span></h3>
-<p class="text-muted">&copy; <span onclick="goToPrev();" class="secret">2020</span> Kento Shirasawa from</p>
-<a href="https://www.novalumo.llc/" target="_blank"><img src="https://www.novalumo.llc/files/logo.svg" alt="Novalumo Logo" class="novaLogo"></a>
+<!-- Footer -->
+<footer class="pt-5 mt-5">
+  <p class="text-muted">&copy; <span onclick="alert('How was my previous website...??\nHint: A Famous Command');" class="secret">2020</span> Kento Shirasawa from</p>
+  <a href="https://www.novalumo.llc/" target="_blank"><img src="https://www.novalumo.llc/files/logo.svg" alt="Novalumo Logo" class="novaLogo"></a>
 </footer>
 
-<a href="https://www.novalumo.llc/"><img src="files/hello.png" alt="Hello!" class="hyokkori"></a>
-
 <!-- Load JavaScript -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <!-- Load JavaScript End -->
+<script type="text/javascript">
+var input = [];
+code = [38,38,40,40,37,39,37,39,66,65];
+
+$(window).keyup(function(e){
+input.push(e.keyCode);
+
+if (input.toString().indexOf(code) >= 0)
+  {
+    alert("You Found Me!!");
+    window.location.href = "previous/index.html";
+  }
+});
+</script>
+<!-- Translate -->
+<script>
+
+</script>
 </body>
+</html>

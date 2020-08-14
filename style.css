@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+body { font-family: 'Noto Sans JP', sans-serif !important; }
+img { pointer-events: none; }
+.noBreak { display: block; }
+/* --- Navbar --- */
+.navbar {
+  background: #fff !important;
+  margin: 10px;
+  border-radius: 15px;
+}
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  text-align: center;
+}
+.navbar-brand{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  position: relative;
+  top: 3px;
+  color: #555 !important;
+}
+.navbar-brand:hover{
+  transition: .2s; opacity: 0.3; transform: scale(1.02, 1.02);
+}
+.langButton {
+  color: #00acee;
+}
+
+/* --- Card --- */
+.card { border: none; }
+
+@media (min-width: 768px){
+  .main { margin: 0 14%; top: 6.7em; }
+  .textVerticalCenter { margin: auto 0; }
+}
+.myTitle { position: relative; left: 4px; }
+.contents {
+  font-weight: 300;
+  line-height: 200%;
+  letter-spacing: 1px;
+}
+/* --- Footer --- */
+footer { margin: 5px; text-align: center; }
+footer p, img { display: inline; }
+.novaLogo {
+  width: 7rem;
+  position: relative;
+  bottom: 3px;
+  opacity: .5;
+  transition: .3s;
+}
+.secret:hover { cursor: help; }
