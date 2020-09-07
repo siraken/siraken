@@ -3,119 +3,136 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<title>白澤 賢斗 | Kento Shirasawa</title>
-<!-- For PWA -->
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="white">
-<meta name="apple-mobile-web-app-title" content="SiraKen's Page">
-<link rel="apple-touch-icon" href="files/icon192.png">
-<link rel="manifest" href="files/manifest.json">
+<title>Kento Shirasawa</title>
 <!-- Bootstrap Styles -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="previous/files/fontawesome/css/all.css">
-<link rel="shortcut icon" href="files/favicon.ico">
-<link rel="stylesheet" type="text/css" href="style.css">
-<!-- ServiceWorker -->
-<script>
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('files/sw.js')
-      .then((reg) => {
-        console.log('Service worker registered.', reg);
-      });
+<link rel="stylesheet" type="text/css" href="files/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="files/fontawesome/css/all.css">
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,700&display=swap&subset=japanese');
+html { position: relative; min-height: 100%; }
+body{ font-family: 'Noto Sans JP', sans-serif !important; margin-bottom: 60px; }
+h1, h2, h3, p { cursor: default; }
+.navbar-brand{transition: all 0.3s ease 0s;}
+.navbar-brand:hover{opacity: 0.6; transform: translateY(0.05em);}
+.nav-link{transition: all 0.3s ease 0s;}
+.nav-link:hover{opacity: 0.6; background-color: #1b535c;}
+.pf-icon{transition: all 0.3s ease 0s; letter-spacing: 10px;}
+.pf-icon:hover{opacity: 0.6;}
+.jumbotron-fluid{background-size: cover; cursor: default;}
+.jumbotron-ex{position: relative; height: 100vh; min-height: 300px;}
+.jumbotron-container {position: relative; top: 48%; transform: translateY(-50%);}
+.jumbotron-container > h1{font-size: 10vh;}
+.jumbotron-container > p{font-size: 3vh;}
+.container-fluid{width: 95%; padding: 3% 1% 3% 1%;}
+.btn-ex{ background: rgb(24,74,82); border-radius: 0; color: #fff;}
+.btn-ex:hover{ transition: .2s; color: #fff; background: rgb(24,74,82); opacity: .6;}
+.footer { position: absolute; bottom: 0; width: 100%; height: 70px; background-color: #343A40; cursor: default; }
+.container {width: auto; max-width: 680px; padding: 0 15px;}
+.container .text-muted {margin: 20px 0;}
+.mat_a, .mat_v { list-style:none; }
+.mat_a::before, .mat_v::before { content: '- ';}
+.cal_wrapper { max-width: 800px; min-width: 300px; margin: 2.0833% auto; }
+.googlecal { position: relative; padding-bottom: 100%; height: 0; overflow: hidden; }
+.googlecal iframe { position: absolute; top: 0; left: 0; width: 100% !important; height: 100% !important; }
+
+@media only screen and (min-width: 600px) {
+  .googlecal { padding-bottom: 75%;}
 }
-</script>
+</style>
+<!-- Bootstrap JS -->
+<script type="text/javascript" src="files/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
-  <ul class="nav navbar-nav">
-    <li class="dropdown">
-      <a class="navbar-brand dropdown" data-toggle="dropdown" href="#" alt="Links here" title="Links here">Kento Shirasawa</a></a>
-      <ul class="dropdown-menu shadow-sm" id="BrandDropdown" role="menu">
-        <h3>
-          <a class="dropdown-item text-muted" target="_blank" href="https://twitter.com/Sira_Kento" title="Twitter"><i class="fab fa-twitter"></i></a>
-          <a class="dropdown-item text-muted" target="_blank" href="https://www.facebook.com/sira.kento" title="Twitter"><i class="fab fa-facebook"></i></a>
-          <a class="dropdown-item text-muted" target="_blank" href="https://www.instagram.com/sira_kento" title="Twitter"><i class="fab fa-instagram"></i></a>
-          <a class="dropdown-item text-muted" target="_blank"  href="https://www.youtube.com/c/SiraKen" title="YouTube Channel"><i class="fab fa-youtube"></i></a>
-          <a class="dropdown-item text-muted" target="_blank" href="https://github.com/SiraKen" title="GitHub"><i class="fab fa-github"></i></a>
-        </h3>
-      </ul>
-    </li>
-  </ul>
-  <!---->
-  <ul class="navbar-nav ml-auto">
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-globe langButton"></i></a>
-      <div class="dropdown-menu dropdown-menu-right shadow-sm" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#ja">日本語</a>
-        <a class="dropdown-item disabled" href="#en">English</a>
-        <a class="dropdown-item disabled" href="#de">Deutsch</a>
-        <a class="dropdown-item disabled" href="#fr">Français</a>
-        <a class="dropdown-item disabled" href="#eo">Esperanto</a>
-      </div>
-    </li>
-  </ul>
+<div class="pageview">
+<div class="jumbotron-fluid jumbotron-ex text-center" style="color: #fff; filter: alpha(opacity=50); background-image: url(files/background.jpg);">
+<nav class="navbar navbar-expand-md navbar-dark pt-1 pb-1" style="background-color:rgba(24,74,82,0.8);"><a class="navbar-brand" href="#">SiraKen.NET</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color: rgba(0,0,0,0);">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav ml-auto">
+		<!-- Links -->
+    <li class="nav-item">
+		<a class="nav-link" href="https://note.com/siraken0411" target="_blank">note</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="https://medium.com/@shirasawakento" target="_blank">Medium</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" href="https://www.behance.net/Sira_Kento" target="_blank">Behance</a>
+		</li>
+	</ul>
+</div>
 </nav>
-
-<!-- Main -->
-<main>
-<div class="container" style="margin-top: 7rem;">
-  <div class="card">
-    <div class="row no-gutters">
-      <div class="col-md-6 order-md-2">
-        <img src="files/shirasawa_kento.jpg" alt="My Profile Image" class="img-fluid rounded-circle shadow myProfileImg" width="100%">
-      </div>
-      <div class="col-md-6 textVerticalCenter order-md-1">
-        <div class="card-body">
-          <h1>Kento Shirasawa</h1>
-          <h2 class="h4 text-muted">
-            <span class="myTitle">- A Creator.</span>
-          </h2>
-          <p class="mt-3 contents" id="intro">
-            出身：岩手県大船渡市<br>
-            趣味：アニメ・映画観賞、音楽、ラジオ、ゲーム、モノ作り、語学など<br>
-          </p>
-          <p class="mt-3 contents" id="text">
-            小学5年生の頃にYouTuberという存在に衝撃を受けた時から、常に新しいモノに興味を持ち、偏見をもたず自分自身の体験を頼りに、様々なことに挑戦しています。<br>
-            
-          </p>
-        </div>
-      </div>
-    </div>
+	<div class="container-fluid jumbotron-container">
+		<h1 id="cover-title">Hi there!</h1>
+		<p id="cover-text">白澤賢斗 公式Webサイト</p>
+		<a role="button" class="btn btn-lg btn-ex" href="https://www.novalumo.llc/" data-toggle="tooltip" data-placement="bottom" title="Our Company">Novalumo Website</a>
   </div>
 </div>
-</main>
 
-<!-- Footer -->
-<footer class="pt-5 mt-5">
-  <p class="text-muted">&copy; <span onclick="alert('How was my previous website...??\nHint: A Famous Command');" class="secret">2020</span> Kento Shirasawa from</p>
-  <a href="https://www.novalumo.llc/" target="_blank"><img src="https://www.novalumo.llc/files/logo.svg" alt="Novalumo Logo" class="novaLogo"></a>
+<!-- Container -->
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-4">
+	<img src="files/shirasawa_kento_001.jpg" class="img-fluid myFace rounded-circle" style="text-align: center;" title="16歳の時に母に撮ってもらった(撮られた？)写真です。">
+	</div>
+	<div class="col-lg-5">
+	<h1 class="font-weight-bold" style="padding-top: 12px;">Kento Shirasawa</h1>
+	<p>Novalumo CEO / Founder</p>
+    <h4>
+        <a class="text-muted pf-icon" href="https://twitter.com/Sira_Kento" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a class="text-muted pf-icon" href="https://www.facebook.com/sira.kento" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+        <a class="text-muted pf-icon" href="https://www.instagram.com/sira_kento" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a class="text-muted pf-icon" href="https://www.linkedin.com/in/shirasawakento/" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+        <a class="text-muted pf-icon" href="https://www.youtube.com/c/SiraKen" title="YouTube Channel"><i class="fab fa-youtube"></i></a>
+        <a class="text-muted pf-icon" href="https://github.com/SiraKen" title="GitHub"><i class="fab fa-github"></i></a>
+				<a class="text-muted pf-icon" href="https://open.spotify.com/user/sira_kento" title="Spotify Profile"><i class="fab fa-spotify"></i></a>
+        <a class="text-muted pf-icon" href="https://anchor.fm/shirasawa-kento" title="Podcast"><i class="fas fa-podcast"></i></a>
+    </h4>
+    <hr>
+    <p><a href="#open-pp" data-toggle="collapse" style="padding-right: 8px;">YouTubeなどの使用素材一覧 <i class="fas fa-angle-down"></i></a></p>
+    <div class="row collapse" id="open-pp">
+    <div class="col-lg-10">
+    	<ul style="line-height: 160%;">
+    		<li class="mat_a">魔王魂： <a href="https://maoudamashii.jokersounds.com/" target="_blank"><br>https://maoudamashii.jokersounds.com/</a></li>
+    		<li class="mat_a">甘茶の音楽工房： <a href="https://amachamusic.chagasi.com/" target="_blank"><br>https://amachamusic.chagasi.com/</a></li>
+    		<li class="mat_a">Music-NoteJP： <a href="http://www.music-note.jp/" target="_blank"><br>http://www.music-note.jp/</a></li>
+    		<li class="mat_a">DOVA-SYNDROME： <a href="https://dova-s.jp/" target="_blank"><br>https://dova-s.jp/</a></li>
+    		<li class="mat_a">効果音ラボ： <a href="https://soundeffect-lab.info/" target="_blank"><br>https://soundeffect-lab.info/</a></li>
+    		<li class="mat_a">H/Mix Gallery： <a href="http://www.hmix.net/" target="_blank"><br>http://www.hmix.net/</a></li>
+    		<li class="mat_a">おとわび： <a href="https://otowabi.com/" target="_blank"><br>https://otowabi.com/</a></li>
+    		<li class="mat_a">MusMus： <a href="http://musmus.main.jp/" target="_blank"><br>http://musmus.main.jp/</a></li>
+    		<li class="mat_a">OtoLogic： <a href="https://otologic.jp" target="_blank"><br>https://otologic.jp</a></li>
+    		<li class="mat_v">動画素材.com： <a href="http://xn--hhro09bn9j8uh.com/" target="_blank"><br>https://動画素材.com/</a></li>
+    	</ul>
+    </div>
+    </div>
+	</div>
+  <div class="col-md-3">
+    <a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/Sira_Kento?ref_src=twsrc%5Etfw">Tweets by Sira_Kento</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted text-center">&copy; 2020 Kento Shirasawa</p>
+  </div>
 </footer>
 
+</div>
 <!-- Load JavaScript -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<!-- Load JavaScript End -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script type="text/javascript">
-var input = [];
-code = [38,38,40,40,37,39,37,39,66,65];
-
-$(window).keyup(function(e){
-input.push(e.keyCode);
-
-if (input.toString().indexOf(code) >= 0)
-  {
-    alert("You Found Me!!");
-    window.location.href = "previous/index.html";
-  }
-});
+	$('[data-toggle="tooltip"]').tooltip();
 </script>
-<!-- Translate -->
-<script>
+<!-- Load JavaScript End -->
 
-</script>
 </body>
 </html>
