@@ -57,6 +57,9 @@ article {
   letter-spacing: 2;
   line-height: 2;
 }
+.td-none:hover {
+  text-decoration: none;
+}
 </style>
 </head>
 
@@ -76,25 +79,36 @@ article {
 <div class="col">
 <article>
 <p>
-こんにちは。Novalumoでは主にGitHubを使ったバージョン管理をしています。その中でGitHubのOrganizationアカウントを使っているのですが、Organizationといえばこんなマークを見かける人も多いでしょう。
+GitHubのOrganizationアカウントといえば、こんなマークを見かける人も多いでしょう。
 </p>
 <img class="img-fluid" src="img/setup_gh_img_1.png">
 <p>
-緑色でマークが付いています。これが付いているだけで公式感があって良いですよね。この“Verified”を付与してもらうには「ドメインの検証」を行う必要があります。詳しくは以下のページをご覧ください。
+緑色のVerifiedバッジ。この“Verified”を付与してもらうには「ドメインの検証」を行う必要があります。詳しくは以下のページをご覧ください。
 </p>
+<a class="td-none" href="https://docs.github.com/ja/github/setting-up-and-managing-organizations-and-teams/verifying-your-organizations-domain" target="_blank">
+  <div class="card mb-3 shadow-sm">
+    <img class="card-img-top" src="img/setup_gh_img_link.png">
+    <div class="card-body border-top">
+      <h5 class="card-title">Organization のドメインを検証する</h5>
+      <p class="card-text text-dark">
+        Organization が管理しているドメインを検証して、GitHub で Organization のアイデンティティを確認できます。
+      </p>
+      <p class="card-text"><small class="text-muted">help.github.com</small></p>
+    </div>
+  </div>
+</a>
 <p>
 作業を大雑把に説明すると、ドメインの所有を確認するためにDNS設定のTXTレコードに指定された値をセットするというもの。
 一度ドメインの検証を行ったのですが、なぜかVerifiedが付きませんでした。どうにか解決すべく色々な部分をチェックすると気になる点が。
 </p>
 <img class="img-fluid shadow mb-3" src="img/setup_gh_img_2.png">
-<p>そう、Google公式の場合、opensource.googleとgoogle.comのドメイン2つが検証済みになっていました。</p>
+<p>GoogleのGitHub Orgページを見ると、opensource.googleとgoogle.comのドメイン2つが検証済みになっていました。</p>
 <img class="img-fluid" src="img/setup_gh_img_3.png">
-<p>実はこれに気づくまではwww.novalumo.llcのみ検証済みになっていましたが、wwwのサブドメイン無しも認証すると…</p>
+<p>www.novalumo.llcのみ検証済みになっていましたが、www無しも認証してみるとVerifiedになりました。</p>
 <img class="img-fluid shadow mb-3" src="img/setup_gh_img_4.png">
 <p>
-無事Verifiedになりました！どうやら設定されているWebサイトのURL、メールアドレスのドメインを確認する必要があるみたいです。両方のドメインを登録するとGitHubから確認のメールも届きます。これで完了です。
+設定されているWebサイトのURL、メールアドレスのドメインを確認する必要があるようです。両方のドメインを登録するとGitHubから確認のメールも届き、これで完了です。
 </p>
-<p>ドメインが検証済みなのにVerifiedにならない！という方は是非試してみてくださいね！</p>
 </article>
 </div>
 </div>
