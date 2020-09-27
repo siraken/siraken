@@ -6,7 +6,7 @@
 <link rel="shortcut icon" href="../../favicon.ico">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-<title>Save Video</title>
+<title>ファンクラブなど気に入った動画を『個人で楽しむために』保存する方法</title>
 <style>
 /* Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
@@ -74,7 +74,7 @@ pre {
 <div class="container my-5 p-5 bg-white shadow">
 <div class="row mb-3">
 <div class="col">
-  <h1 class="title">Save Video</h1>
+  <h1 class="title">ファンクラブなど気に入った動画を『個人で楽しむために』保存する方法</h1>
 </div>
 </div>
 <div class="row">
@@ -103,9 +103,10 @@ pre {
 見つけたm3u8を右クリックして、Copy→Copy link addressの順で選択してください。操作はブラウザによりますが、基本はこんな感じでm3u8までのリンクをコピーできれば問題ありません。できましたかね？それでは進みます。
 ターミナル等を開き、以下を入力します。「m3u8ファイルがある場所のリンク.m3u8」はコピーしたリンクを使ってください。一応言っておきますが、$は入れませんよ！
 </p>
-<pre>
+<pre class="m-0">
 $ ffmpeg -i https://m3u8ファイルがある場所のリンク.m3u8 -movflags faststart -c copy -bsf:a aac_adtstoasc 保存ファイル名.mp4
 </pre>
+<small>↑左右にスクロールできます</small>
 <p>
 できたでしょうか？処理が終わると動画が保存されています。自分の環境ではユーザのホームフォルダ(/Users/UserName/)にmp4ファイルとして保存されていました。やり方さえ覚えてしまえば簡単ですね。それでは素敵な動画ライフを！
 ※もう一度言っておきますが、悪用はしないでくださいね。限定コンテンツを垂れ流したり法に触れることなどはしないようお願いします。
