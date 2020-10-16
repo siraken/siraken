@@ -32,8 +32,8 @@ footer {
 /* Fork Me */
 .fork-me {
 	position: fixed;
-	bottom: 1em;
-	right: 1.2em;
+	bottom: 0;
+	right: 1em;
 }
 .fork-btn {
 	display: block;
@@ -63,7 +63,10 @@ article {
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
-	<a class="btn btn-info rounded" href="../"><i class="fas fa-arrow-left"></i></a>
+	<a class="btn btn-info rounded ml-1" href="/"><i class="fas fa-home mr-2"></i>Home</a>
+  <div class="ml-auto">
+    <a class="btn btn-info rounded" href="/archive/"><i class="fas fa-archive mr-2"></i>Archive</a>
+  </div>
 </nav>
 
 <div class="container my-5 p-5 bg-white shadow">

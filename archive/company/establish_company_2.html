@@ -6,7 +6,7 @@
 <link rel="shortcut icon" href="../../favicon.ico">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-<title>GitHub OrganizationでVerifyする</title>
+<title>登記完了後の印鑑カード取得</title>
 <style>
 /* Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
@@ -32,8 +32,8 @@ footer {
 /* Fork Me */
 .fork-me {
 	position: fixed;
-	bottom: 1em;
-	right: 1.2em;
+	bottom: 0;
+	right: 1em;
 }
 .fork-btn {
 	display: block;
@@ -57,57 +57,47 @@ article {
   letter-spacing: 2;
   line-height: 2;
 }
-.td-none:hover {
-  text-decoration: none;
-}
 </style>
 </head>
 
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
-	<a class="btn btn-info rounded" href="../"><i class="fas fa-arrow-left"></i></a>
+	<a class="btn btn-info rounded ml-1" href="/"><i class="fas fa-home mr-2"></i>Home</a>
+  <div class="ml-auto">
+    <a class="btn btn-info rounded" href="/archive/"><i class="fas fa-archive mr-2"></i>Archive</a>
+  </div>
 </nav>
 
 <div class="container my-5 p-5 bg-white shadow">
 <div class="row mb-3">
 <div class="col">
-  <h1 class="title">GitHub OrganizationでVerifyする</h1>
+  <h1 class="title">登記完了後の印鑑カード取得</h1>
 </div>
 </div>
 <div class="row">
 <div class="col">
 <article>
+<h2 class="heading">印鑑カード</h2>
 <p>
-GitHubのOrganizationアカウントといえば、こんなマークを見かける人も多いでしょう。
+そうです。こんなものがあるんです。これは個人の印鑑証明とかとはまた別で、カードを作らないと印鑑証明書がもらえないんです。
 </p>
-<img class="img-fluid" src="img/setup_gh_img_1.png">
+<img class="img-fluid mb-2 shadow-sm rounded" src="img/ec_img_1.jpg">
 <p>
-緑色のVerifiedバッジ。この“Verified”を付与してもらうには「ドメインの検証」を行う必要があります。詳しくは以下のページをご覧ください。
+まぁ印鑑カードは2番目に取ったもので、この日はこれを含めて3種類のものを取ってきました。履歴事項全部証明書、印鑑カード、印鑑証明書です。
 </p>
-<a class="td-none" href="https://docs.github.com/ja/github/setting-up-and-managing-organizations-and-teams/verifying-your-organizations-domain" target="_blank">
-  <div class="card mb-3 shadow-sm">
-    <img class="card-img-top" src="img/setup_gh_img_link.png">
-    <div class="card-body border-top">
-      <h5 class="card-title">Organization のドメインを検証する</h5>
-      <p class="card-text text-dark">
-        Organization が管理しているドメインを検証して、GitHub で Organization のアイデンティティを確認できます。
-      </p>
-      <p class="card-text"><small class="text-muted">help.github.com</small></p>
-    </div>
-  </div>
-</a>
 <p>
-作業を大雑把に説明すると、ドメインの所有を確認するためにDNS設定のTXTレコードに指定された値をセットするというもの。
-一度ドメインの検証を行ったのですが、なぜかVerifiedが付きませんでした。どうにか解決すべく色々な部分をチェックすると気になる点が。
+まぁ印鑑カードは2番目に取ったもので、この日はこれを含めて3種類のものを取ってきました。履歴事項全部証明書、印鑑カード、印鑑証明書です。
 </p>
-<img class="img-fluid shadow mb-3" src="img/setup_gh_img_2.png">
-<p>GoogleのGitHub Orgページを見ると、opensource.googleとgoogle.comのドメイン2つが検証済みになっていました。</p>
-<img class="img-fluid" src="img/setup_gh_img_3.png">
-<p>www.novalumo.llcのみ検証済みになっていましたが、www無しも認証してみるとVerifiedになりました。</p>
-<img class="img-fluid shadow mb-3" src="img/setup_gh_img_4.png">
 <p>
-設定されているWebサイトのURL、メールアドレスのドメインを確認する必要があるようです。両方のドメインを登録するとGitHubから確認のメールも届き、これで完了です。
+法人登記関係は管轄の登記所にしか提出できないそうなので、白澤の場合、登記書類の提出は盛岡地方法務局（本局）でしかできませんが、同じ法人関係の書類でもこういった証明書などの処理は登記所以外でもOKなので、大船渡出張所で問題ないです。とは言っても初めて入ったんですけどね。持ってく書類も3種類。
+</p>
+<p>
+中に入ると部門が分かれてるみたいで2つ窓口がありました。まずは証明書交付系の窓口で全部証明書を取ります。収入印紙で600円です。
+</p>
+<p>
+次に印鑑カード。カードがないと次の証明書が取れません。カードは印紙貼る必要ないです。これには15分~ほどかかります。
+最後に印鑑証明書。用紙とカードを一緒に出します。これで終わり。
 </p>
 </article>
 </div>
