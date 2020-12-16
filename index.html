@@ -6,7 +6,7 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-<title>Kento Shirasawa</title>
+<title>Kento Shirasawa Official Website</title>
 <style>
 /* Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
@@ -29,19 +29,19 @@ body {
 	padding: 1em 2em 1em 2em;
 }
 
-/* Skills */
-.skills-icon {
-	max-width: 280px;
-	display: block;
-	margin: 0 auto;
+.text {
+	line-height: 1.5;
 }
 
 /* Footer */
-footer {
-	width: 100%;
-	background: #eee;
-	text-align: center;
-	padding: 1em;
+.copyright {
+    width: 100%;
+    padding: 1rem 0;
+    background: rgba(245,245,245,0.5);
+    color: #777;
+    font-size: .8rem;
+    border-top: solid 1px #ddd;
+    cursor: default;
 }
 
 /* Fork Me */
@@ -72,7 +72,7 @@ article {
 <body>
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
-	<a class="navbar-brand" href="#">Kento Shirasawa</a>
+	<a class="navbar-brand" href="/">SiraKen.NET</a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
 	</button>
@@ -95,8 +95,8 @@ article {
 <!-- Product Icon : Recommended : 365x365 -->
 <div class="text-center mb-3">
 	<img src="shirasawa_kento.jpg" alt="Icon" class="img-fluid rounded-circle mx-auto d-block mb-3 ban" style="max-width: 300px;">
-	<h1 class="m-0">Kento Shirasawa</h1>
-	<p class="m-0">（Francisco / 白澤 賢斗）</p>
+	<h1 class="m-0">Kento F. Shirasawa</h1>
+	<p class="m-0">（白澤 賢斗 / Francisco）</p>
 </div>
 
 <hr class="invisible" id="about">
@@ -105,24 +105,30 @@ article {
 <div class="row">
 <div class="col">
 	<div class="contents-box shadow-sm">
-		<h1 class="text-center mb-3">About</h1>
-    <article>
-      <p>
-        岩手県大船渡市出身・在住。2002年4月11日生まれ。趣味はアニメや映画を観ること、音楽、ラジオ、ゲーム、モノ作り、語学など。小学5年生の頃からIT関係に興味を持ちはじめる。2019年3月、クラウドファンディングにて目標額を達成し、米国テキサス州オースティンにて毎年行われている大型イベント「SXSW」に参加。2020年4月にはカトリックの受洗（洗礼名：フランシスコ）、主にIT関連事業を行う Novalumo（ノバルーモ）合同会社を設立。同年6月末に高校を中退、現在はWebや映像コンテンツの制作・提供をはじめとするITを生かした様々なプロジェクトを手掛けている。
-      </p>
-      <hr>
-      <p>
-        使用言語：日本語、英語<br>
-        （勉強中：中国語、ドイツ語、フランス語、イタリア語、スペイン語、エスペラント、ケセン語）
-      </p>
-      <p>
-        開発言語：HTML, CSS, JavaScript, PHP, C#, Java, Ruby, Python, etc. <br>
-        （CakePHP, Rails, Electron, React, Vue.js, etc. ）
-      </p>
-      <p>
-        主な仕事：Web制作、UI/UXデザイン、映像制作、キッズプログラミング講師、コンピューター修理、社会貢献活動 etc.
-      </p>
-    </article>
+	    <article>
+
+			<p>
+			岩手県大船渡市出身・在住。2002年4月11日生まれ。2019年3月、クラウドファンディングにて目標額を達成し、米国テキサス州オースティンにて毎年行われている大型イベント「SXSW」に参加。2020年4月には、IT関連事業を主とした事業を行う Novalumo（ノバルーモ）合同会社を設立。
+			</p>
+
+			<hr>
+
+			<p class="m-0">趣味：</p>
+			<p class="text">アニメ・映画鑑賞、音楽・ラジオ、ゲーム、モノ作り、語学</p>
+
+			<p class="m-0">言語：</p>
+			<p class="text">日本語、英語</p>
+
+			<p class="m-0">勉強中：</p>
+			<p class="text">中国語、ドイツ語、フランス語、イタリア語、スペイン語、エスペラント、ケセン語</p>
+
+			<p class="m-0">開発言語：</p>
+			<p class="text">HTML, CSS, JavaScript, PHP, C#, Java, Ruby, Python, etc.</p>
+
+			<p class="m-0">主な活動：</p>
+			<p class="text">Web制作、UIデザイン、映像制作、キッズプログラミング講師 etc.</p>
+
+	    </article>
 	</div>
 </div>
 </div>
@@ -130,8 +136,8 @@ article {
 </div>
 
 <!-- Footer -->
-<footer>
-&copy; 2020 Kento Shirasawa from <a href="https://www.novalumo.llc/" target="_blank">Novalumo</a>
+<footer class="copyright mx-auto text-center">
+	<span>Copyright © Novalumo G.K.</span> <span>All rights reserved.</span>
 </footer>
 
 <div class="fork-me">
