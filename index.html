@@ -3,10 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta description="Kento Shirasawa Official Website.">
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
-<title>Kento Shirasawa Official Website</title>
+<title>SiraKen.NET</title>
 <style>
 /* Import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
@@ -65,6 +66,16 @@ body {
 article {
   letter-spacing: 2;
   line-height: 2;
+  position: relative;
+  bottom: 4px;
+}
+
+/* Heading */
+.heading {
+	font-size: 120%;
+}
+.heading::before, .heading::after {
+	content: ' - ';
 }
 </style>
 </head>
@@ -73,8 +84,8 @@ article {
 <!-- Navbar -->
 <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm">
 	<a class="navbar-brand" href="/">SiraKen.NET</a>
-	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-	<span class="navbar-toggler-icon"></span>
+	<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
 	</button>
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -105,29 +116,23 @@ article {
 <div class="row">
 <div class="col">
 	<div class="contents-box shadow-sm">
-	    <article>
+	    <article class="text-center">
 
-			<p>
-			岩手県大船渡市出身・在住。2002年4月11日生まれ。2019年3月、クラウドファンディングにて目標額を達成し、米国テキサス州オースティンにて毎年行われている大型イベント「SXSW」に参加。2020年4月には、IT関連事業を主とした事業を行う Novalumo（ノバルーモ）合同会社を設立。
-			</p>
-
-			<hr>
-
-			<p class="m-0">趣味：</p>
+			<p class="m-0 heading">趣味</p>
 			<p class="text">アニメ・映画鑑賞、音楽・ラジオ、ゲーム、モノ作り、語学</p>
 
-			<p class="m-0">言語：</p>
+			<p class="m-0 heading">言語</p>
 			<p class="text">
 				日本語、英語、ドイツ語、フランス語、イタリア語、スペイン語、エスペラント、ケセン語
 			</p>
 
-			<p class="m-0">開発言語：</p>
+			<p class="m-0 heading">開発言語</p>
 			<p class="text">
 				HTML, CSS, JavaScript, PHP, C#, Java, Ruby, Python, etc.
 			</p>
 
-			<p class="m-0">主な活動：</p>
-			<p class="text">
+			<p class="m-0 heading">主な活動</p>
+			<p class="text m-0">
 				Web制作、UIデザイン、映像制作、キッズプログラミング講師 etc.
 			</p>
 
