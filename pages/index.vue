@@ -52,7 +52,8 @@
               <p class="lead mt-3 mb-2 border-bottom">Main Computer</p>
               <dl>
                 <dt>PC:</dt>
-                <dd>MacBook Air Early 2014 (Core i7, 8GB RAM, Big Sur)</dd>
+                <dd>MacBook Air (Early 2014, Core i7, 8GB RAM)</dd>
+                <dd>Mac mini (M1, 2020, 16GB RAM)</dd>
                 <dt>Phone:</dt>
                 <dd>iPhone XR 128GB</dd>
                 <dt>Tablet</dt>
