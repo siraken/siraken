@@ -1,4 +1,6 @@
-# sample-nuxt
+# SiraKen.NET - Kento Shirasawa's Official Website
+
+![Build and Deploy](https://github.com/SiraKen/siraken.github.io/workflows/Build%20and%20Deploy/badge.svg)
 
 ## Build Setup
 
@@ -16,5 +18,3 @@ $ yarn start
 # generate static project
 $ yarn generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
