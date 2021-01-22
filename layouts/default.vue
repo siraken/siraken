@@ -94,6 +94,7 @@ body {
   background: linear-gradient(to top, rgb(2, 3, 7), rgb(14, 25, 30), rgb(33, 52, 67));
   color: #fff;
   font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  min-height: 100vh;
 }
 
 /* --- Header --- */
