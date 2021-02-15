@@ -6,15 +6,8 @@
         <div class="col-12">
           <div class="text-center mb-3">
             <img src="/img/shirasawa_kento.jpg" class="img-fluid rounded-circle mx-auto d-block mb-3 ban" style="max-width: 300px;">
-            <p class="m-0 h1">Kento Shirasawa</h1>
+            <p class="m-0 h1">Kento Shirasawa</p>
             <p class="m-0">（白澤 賢斗 / SiraKen）</p>
-            <p class="mt-2 h3 links">
-              <a href="https://www.youtube.com/channel/UCUUhx5rucm_tYuM0Hbm781g" target="_blank" rel="noopener" id="youtube"><i class="fab fa-fw fa-youtube"></i></a>
-              <a href="https://twitter.com/shirasawa_kento" target="_blank" rel="noopener" id="twitter"><i class="fab fa-fw fa-twitter"></i></a>
-              <a href="https://www.facebook.com/shirasawa.kento" target="_blank" rel="noopener" id="facebook"><i class="fab fa-fw fa-facebook"></i></a>
-              <a href="https://www.instagram.com/shirasawa.kento" target="_blank" rel="noopener" id="instagram"><i class="fab fa-fw fa-instagram"></i></a>
-              <a href="https://open.spotify.com/user/sira_kento" target="_blank" rel="noopener" id="spotify"><i class="fab fa-fw fa-spotify"></i></a>
-            </p>
           </div>
         </div>
       </div>
@@ -117,31 +110,5 @@ article a {
 summary {
   outline: none;
   user-select: none;
-}
-
-/* Links */
-.links {
-  background: #eee;
-  padding: .2em 1em;
-  display: inline-block;
-  border-radius: .25rem;
-  user-select: none;
-}
-#youtube {
-  color: #ff0000;
-}
-#twitter {
-  color: #55acee;
-}
-#facebook {
-  color: #315096;
-}
-#instagram {
-  background: -webkit-linear-gradient(0deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-#spotify {
-  color: #2bb24c;
 }
 </style>

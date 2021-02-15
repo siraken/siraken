@@ -17,6 +17,23 @@
           <!-- Menu -->
           <div class="collapse navbar-collapse" id="NavbarMenu">
             <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown bg-black text-white">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Social
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <!--
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  -->
+                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCUUhx5rucm_tYuM0Hbm781g" target="_blank" rel="noopener">YouTube</a>          
+                  <a class="dropdown-item" href="https://twitter.com/shirasawa_kento" target="_blank" rel="noopener">Twitter</a>           
+                  <a class="dropdown-item" href="https://www.facebook.com/shirasawa.kento" target="_blank" rel="noopener">Facebook</a>        
+                  <a class="dropdown-item" href="https://www.instagram.com/shirasawa.kento" target="_blank" rel="noopener">Instagram</a>
+                  <a class="dropdown-item" href="https://open.spotify.com/user/sira_kento" target="_blank" rel="noopener">Spotify</a>
+                </div>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="gallery">Gallery</a>
               </li>
