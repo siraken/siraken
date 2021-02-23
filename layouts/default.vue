@@ -38,6 +38,9 @@
                 <a class="nav-link" href="gallery">Gallery</a>
               </li>
               <li class="nav-item">
+                <!--
+                  <a class="nav-link" href="/blog">Blog</a>
+                -->
                 <a class="nav-link" href="https://blog.siraken.net/">Blog</a>
               </li>
               <li class="nav-item">
