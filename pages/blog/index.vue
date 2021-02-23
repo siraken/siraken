@@ -5,7 +5,6 @@
 </template>
 
 <script>
-
 export default {
   async asyncData({ $content }) {
     const query = await $content('blog')

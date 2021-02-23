@@ -91,6 +91,12 @@ export default {
 
   p {
     margin: 20px 0 10px;
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+
+  img {
+    max-width: 100%;
   }
 
   code {
