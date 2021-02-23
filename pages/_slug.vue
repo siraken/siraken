@@ -17,8 +17,7 @@ export default {
 }
 </script>
 
-<style>
-/*
+<style lang="scss">
 .nuxt-content {
   h1 {
     margin: 48px 0px 28px;
@@ -71,5 +70,4 @@ export default {
 
   }
 }
-*/
 </style>

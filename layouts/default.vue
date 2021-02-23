@@ -59,7 +59,7 @@
 
     <!-- Footer -->
     <footer class="mx-auto text-center">
-      <span>Copyright © Novalumo</span> <span>All rights reserved.</span>
+      <span>Copyright © Novalumo</span>, <span>All rights reserved.</span>
     </footer>
 
     <!-- GitHub Icon -->
