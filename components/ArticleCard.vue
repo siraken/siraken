@@ -1,8 +1,10 @@
 <template>
-  <article>
-    <h2 class="text-xl font-bold">{{ title }}</h2>
-    <time class="text-right text-sm text-gray-700">{{ date }}</time>
-  </article>
+  <nuxt-link :to="slug">
+    <article>
+      <h2 class="text-xl font-bold">{{ title }}</h2>
+      <time class="text-right text-sm text-gray-700">{{ date }}</time>
+    </article>
+  </nuxt-link>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
-  <article class="container mx-auto my-8 px-20 md:px-0">
-    <h1 class="text-center text-3xl font-bold my-8">{{ article.title || '' }}</h1>
+  <article class="container mx-auto my-8">
+    <h1 class="text-center font-bold my-8">{{ article.title || '' }}</h1>
     <div class="content bg-white rounded">
       <nuxt-content :document="article" />
     </div>
