@@ -1,8 +1,9 @@
 <template>
   <nuxt-link :to="slug">
-    <article>
-      <h2 class="text-xl font-bold">{{ title }}</h2>
-      <time class="text-right text-sm text-gray-700">{{ date }}</time>
+    <article class="bg-white text-dark p-3 my-3 rounded">
+      <h2 class="font-weight-bold m-0">{{ title }}</h2>
+      <p class="lead text-muted">{{ description }}</p>
+      <p class="text-muted m-0"><i class="fas fa-fw fa-clock mr-1"></i><time :datetime="date">{{ date }}</time></p>
     </article>
   </nuxt-link>
 </template>
@@ -11,16 +12,21 @@
 export default {
   props: {
     title: String,
+    description: String,
     date: String,
     category: String,
-    slug: String
+    slug: String,
   }
 }
 </script>
-<style scoped>
-article {
-  background: #fff;
-  color: #000;
-}
+<style lang="scss" scoped>
+a {
+  text-decoration: none;
 
+  &:hover {
+    article {
+      background: #aaa;
+    }
+  }
+}
 </style>
