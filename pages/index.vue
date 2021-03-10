@@ -22,17 +22,9 @@
 
               <p class="lead mb-2 border-bottom">Overview</p>
               <p><ruby>Novalumo<rt>ノバルーモ</rt></ruby>合同会社 最高経営責任者(CEO)。</p>
-              <p>
-              映像制作、デザイン、エンジニアリング、ICT講師など幅広い分野で活動しているマルチクリエイター。岩手県大船渡市在住。
-              </p>
-
-              <p class="lead mt-3 mb-2 border-bottom">Hobby</p>
-              <p>動画・音楽メディア鑑賞、ゲーム、ものづくり、語学など</p>
+              <p>メディア鑑賞、ゲーム、語学、サッカーなどが趣味。</p>
 
               <p class="lead mt-3 mb-2 border-bottom">Language</p>
-              <p>日本語, English, Deutsch, Français, Italiano, Español, <a href="https://ja.wikipedia.org/wiki/%E3%82%A8%E3%82%B9%E3%83%9A%E3%83%A9%E3%83%B3%E3%83%88" target="_blank" rel="noopener">Esperanto</a>, <a href="https://ja.wikipedia.org/wiki/%E3%82%B1%E3%82%BB%E3%83%B3%E8%AA%9E" target="_blank" rel="noopener" class="unicode">keseng̃ó</a></p>
-
-              <p class="lead mt-3 mb-2 border-bottom">Programing Language</p>
               <dl>
                 <dt>Web:</dt>
                 <dd>HTML, CSS, JavaScript, PHP, Ruby, SQL</dd>
@@ -42,7 +34,7 @@
                 <dd>Python</dd>
               </dl>
 
-              <p class="lead mt-3 mb-2 border-bottom">Main Computer</p>
+              <p class="lead mt-3 mb-2 border-bottom">Computer</p>
               <dl>
                 <dt>PC:</dt>
                 <dd class="m-0">MacBook Air (Early 2014, Core i7, 8GB RAM)</dd>
@@ -50,7 +42,7 @@
                 <dt>Phone:</dt>
                 <dd>iPhone XR 128GB</dd>
                 <dt>Tablet</dt>
-                <dd>iPad Air 4th-Gen 64GB with Apple Pencil</dd>
+                <dd>iPad Air 4th-Gen 64GB</dd>
               </dl>
 
             </article>

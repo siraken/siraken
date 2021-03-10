@@ -17,31 +17,13 @@
           <!-- Menu -->
           <div class="collapse navbar-collapse" id="NavbarMenu">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item dropdown bg-black text-white">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Social
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <!--
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  -->
-                  <a class="dropdown-item" href="https://www.youtube.com/channel/UCUUhx5rucm_tYuM0Hbm781g" target="_blank" rel="noopener">YouTube</a>          
-                  <a class="dropdown-item" href="https://twitter.com/shirasawa_kento" target="_blank" rel="noopener">Twitter</a>           
-                  <a class="dropdown-item" href="https://www.facebook.com/shirasawa.kento" target="_blank" rel="noopener">Facebook</a>        
-                  <a class="dropdown-item" href="https://www.instagram.com/shirasawa.kento" target="_blank" rel="noopener">Instagram</a>
-                  <a class="dropdown-item" href="https://open.spotify.com/user/sira_kento" target="_blank" rel="noopener">Spotify</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/gallery">Gallery</a>
-              </li>
               <li class="nav-item">
                   <a class="nav-link" href="/blog/">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.novalumo.llc/">Company</a>
+                <a class="nav-link " href="https://www.youtube.com/channel/UCUUhx5rucm_tYuM0Hbm781g" target="_blank" rel="noopener">
+                  YouTube
+                </a>
               </li>
             </ul>
           </div>
@@ -56,7 +38,7 @@
 
     <!-- Footer -->
     <footer class="mx-auto text-center">
-      <span>Copyright © Novalumo</span>, <span>All rights reserved.</span>
+      <span>Copyright © <a href="https://www.novalumo.llc/">Novalumo</a></span>, <span>All rights reserved.</span>
     </footer>
 
     <!-- GitHub Icon -->
@@ -102,11 +84,11 @@ export default {
 }
 </script>
 
-<style>
-/* Google Fonts */
+<style lang="scss">
+// google fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
 
-/* Body */
+// body
 body {
   background: linear-gradient(to top, rgb(2, 3, 7), rgb(14, 25, 30), rgb(33, 52, 67));
   color: #fff;
@@ -114,27 +96,33 @@ body {
   min-height: 100vh;
 }
 
-/* --- Header --- */
+// header
 .navbar {
   color: #fff !important;
 }
 .navbar-brand {
   transition: .2s;
-}
-.navbar-brand:hover {
-  transform: scale(1.05);
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
-/* --- Footer --- */
+// footer
 footer {
   width: 100%;
   padding: 1rem 0;
   color: #aaa;
   font-size: .8rem;
   cursor: default;
+
+  a {
+    color: #aaa;
+    font-weight: bold;
+  }
 }
 
-/* --- GitHub Icon --- */
+// github
 .gh-icon {
   position: fixed;
   bottom: 0;
@@ -150,16 +138,13 @@ footer {
   transform: rotate(360deg);
 }
 
-/* --- Others --- */
+// other
 .ban {
   pointer-events: none;
   user-select: none;
 }
 .nuxt {
   padding: 100px 0;
-}
-.unicode {
-  font-family: 'TITUS Cyberbit Basic','Code2000','Chrysanthi Unicode','Doulos SIL','Bitstream Cyberbit','Bitstream CyberBase','Bitstream Vera','Thryomanes','Gentium','GentiumAlt','Visual Geez Unicode','Lucida Grande','Arial Unicode MS','Microsoft Sans Serif','Lucida Sans Unicode',sans-serif;
 }
 #particles {
   position: absolute;
