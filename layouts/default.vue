@@ -18,7 +18,7 @@
           <div class="collapse navbar-collapse" id="NavbarMenu">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="/blog/">Blog</a>
+                  <a class="nav-link" href="/blog/">Blogo</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link " href="https://www.youtube.com/channel/UCUUhx5rucm_tYuM0Hbm781g" target="_blank" rel="noopener">

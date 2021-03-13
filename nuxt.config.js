@@ -6,12 +6,12 @@ export default {
   head: {
     title: 'SiraKen.NET',
     htmlAttrs: {
-      lang: 'ja'
+      lang: 'eo'
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '白澤賢斗（シラケン）の公式Webサイトです。' }
+      { hid: 'description', name: 'description', content: 'Ĉi tiu estas la oficiala retejo de Kento Shirasawa (SiraKen).' }
     ],
     link: [
       // Favicon

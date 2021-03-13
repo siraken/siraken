@@ -20,21 +20,21 @@
           <section class="bg-dark rounded shadow">
             <article>
 
-              <p class="lead mb-2 border-bottom">Overview</p>
-              <p><ruby>Novalumo<rt>ノバルーモ</rt></ruby>合同会社 最高経営責任者(CEO)。</p>
-              <p>メディア鑑賞、ゲーム、語学、サッカーなどが趣味。</p>
+              <p class="lead mb-2 border-bottom">Superrigardo</p>
+              <p>Ĉefoficisto de Novalumo G.K. (Japanio)</p>
+              <p>Hobioj inkluzivas spekti amaskomunikilaron, ludi ludojn, lerni lingvojn kaj ludi futbalon.</p>
 
-              <p class="lead mt-3 mb-2 border-bottom">Language</p>
+              <p class="lead mt-3 mb-2 border-bottom">Lingvo</p>
               <dl>
-                <dt>Web:</dt>
+                <dt>Retejo:</dt>
                 <dd>HTML, CSS, JavaScript, PHP, Ruby, SQL</dd>
-                <dt>App:</dt>
+                <dt>Apliko:</dt>
                 <dd>C#, Visual Basic</dd>
-                <dt>Data:</dt>
+                <dt>Datumoj:</dt>
                 <dd>Python</dd>
               </dl>
 
-              <p class="lead mt-3 mb-2 border-bottom">Computer</p>
+              <p class="lead mt-3 mb-2 border-bottom">Komputilo</p>
               <dl>
                 <dt>PC:</dt>
                 <dd class="m-0">MacBook Air (Early 2014, Core i7, 8GB RAM)</dd>
@@ -56,18 +56,14 @@
           <section class="bg-dark rounded shadow">
             <article>
 
-              <p class="lead mb-3 border-bottom">Biography</p>
+              <p class="lead mb-3 border-bottom">Biografio</p>
               <dl>
-                <dt>2002年4月11日</dt>
-                <dd>岩手県大船渡市に生まれる</dd>
-                <dt>2020年4月12日</dt>
-                <dd>カトリックの洗礼を受ける（洗礼名：フランシスコ）</dd>
-                <dt>2020年4月30日</dt>
-                <dd><ruby>Novalumo<rt>ノバルーモ</rt></ruby>合同会社を設立</dd>
-                <div class="d-none">
-                  <dt>2020年6月</dt>
-                  <dd>大船渡高校を中退</dd>
-                </div>
+                <dt>11 apr 2002</dt>
+                <dd>Naskiĝis en Ofunato, gubernio Iwate</dd>
+                <dt>12 apr 2020</dt>
+                <dd>Estis baptita katolika (Baptonomo: Francisko)</dd>
+                <dt>30 apr 2020</dt>
+                <dd>Establis Novalumo G.K.</dd>
                 
               </dl>
 
