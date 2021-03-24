@@ -21,7 +21,7 @@
             <article>
 
               <p class="lead mb-2 border-bottom">Superrigardo</p>
-              <p>Ĉefoficisto de Novalumo G.K. (Japanio)</p>
+              <p>Ĉefoficisto de Novalumo (en Japanio)</p>
               <p>Hobioj inkluzivas spekti amaskomunikilaron, ludi ludojn, lerni lingvojn kaj ludi futbalon.</p>
 
               <p class="lead mt-3 mb-2 border-bottom">Lingvo</p>
@@ -64,7 +64,6 @@
                 <dd>Estis baptita katolika (Baptonomo: Francisko)</dd>
                 <dt>30 apr 2020</dt>
                 <dd>Establis Novalumo G.K.</dd>
-                
               </dl>
 
             </article>

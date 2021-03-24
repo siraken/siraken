@@ -38,6 +38,7 @@
 
     <!-- Footer -->
     <footer class="mx-auto text-center">
+      <p><small>This website is written in <b>Esperanto</b>, symbolized as a peaceful language.</small></p>
       <span>Copyright © <a href="https://www.novalumo.llc/">Novalumo</a></span>, <span>All rights reserved.</span>
     </footer>
 
