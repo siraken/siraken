@@ -3,7 +3,7 @@
     <div class="bg-white text-dark p-3 rounded">
       <h1 class="font-weight-bold m-0">{{ article.title || '' }}</h1>
       <p class="lead text-muted description">{{ article.description }}</p>
-      <p class="text-muted date"><i class="fas fa-fw fa-clock mr-1"></i><time v-bind:datetime="article.date">{{ article.date }}</time></p>
+      <p class="text-muted date"><i class="fas fa-fw fa-clock mr-1"></i><time v-bind:datetime="GetDateTime(new Date(article.date))">{{ DateFormat(new Date(article.date)) }}</time></p>
       <div v-if="article.image">
         <img class="eyecatch rounded shadow" :src="'/blog/' + article.image" :alt="article.image_alt">
       </div>
@@ -16,7 +16,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const query = $content('blog', {deep: true}, params.slug)
+    const query   = $content('blog', {deep: true}, params.slug)
     const article = await query.fetch()
     return { article }
   },
@@ -35,6 +35,29 @@ export default {
       ]
     }
   },
+  data() {
+    return {
+      monthNames: [
+        'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'
+      ]
+    }
+  },
+  methods: {
+    DateFormat: function(val) {
+      let year  = val.getFullYear()
+      let month = this.monthNames[val.getMonth()]
+      let day   = val.getDate()
+      let date  = month + ' ' + day + ', ' + year
+      return date
+    },
+    GetDateTime: function(val) {
+      let year      = val.getFullYear()
+      let month     = String((val.getMonth() + 1)).padStart(2, '0')
+      let day       = val.getDate()
+      let datetime  = year + '-' + month + '-' + day
+      return datetime
+    }
+  }
 }
 </script>
 
