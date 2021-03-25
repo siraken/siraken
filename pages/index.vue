@@ -34,15 +34,17 @@
                 <dd>Python</dd>
               </dl>
 
-              <p class="lead mt-3 mb-2 border-bottom">Komputilo</p>
+              <p class="lead mt-3 mb-2 border-bottom">Maŝino</p>
               <dl>
-                <dt>PC:</dt>
+                <dt>Komputilo:</dt>
                 <dd class="m-0">MacBook Air (Early 2014, Core i7, 8GB RAM)</dd>
-                <dd>Mac mini (M1, 2020, 16GB RAM)</dd>
-                <dt>Phone:</dt>
+                <dd>Mac mini (2020, Apple Silicon M1, 16GB RAM)</dd>
+                <dt>Telefono:</dt>
                 <dd>iPhone XR 128GB</dd>
-                <dt>Tablet</dt>
+                <dt>Tablojdo:</dt>
                 <dd>iPad Air 4th-Gen 64GB</dd>
+                <dt>Muzika Programaro:</dt>
+                <dd>Apple Logic Pro</dd>
               </dl>
 
             </article>
@@ -63,9 +65,10 @@
                 <dt>12 apr 2020</dt>
                 <dd>Estis baptita katolika (Baptonomo: Francisko)</dd>
                 <dt>30 apr 2020</dt>
-                <dd>Establis Novalumo G.K.</dd>
+                <dd>Establis Novalumo Japan G.K.</dd>
+                <dt>30 nov 2020</dt>
+                <dd>Atingis niajn vendajn celojn por la jaro</dd>
               </dl>
-
             </article>
           </section>
 

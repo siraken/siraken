@@ -21,6 +21,9 @@
                   <a class="nav-link" href="/blog/">Blogo</a>
               </li>
               <li class="nav-item">
+                  <a class="nav-link" href="https://github.com/SiraKen" target="_blank" rel="noopener">GitHub</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link " href="https://www.youtube.com/channel/UCUUhx5rucm_tYuM0Hbm781g" target="_blank" rel="noopener">
                   YouTube
                 </a>
@@ -41,13 +44,6 @@
       <p><small>This website is written in <b>Esperanto</b>, symbolized as a peaceful language.</small></p>
       <span>Copyright © <a href="https://www.novalumo.llc/">Novalumo</a></span>, <span>All rights reserved.</span>
     </footer>
-
-    <!-- GitHub Icon -->
-    <div class="gh-icon">
-      <span class="h1 d-block">
-        <a href="https://github.com/SiraKen" class="gh-link" title="Fork me!!"><i class="fab fa-github"></i></a>
-      </span>
-    </div>
 
   </div>
 </template>
@@ -121,22 +117,6 @@ footer {
     color: #aaa;
     font-weight: bold;
   }
-}
-
-// github
-.gh-icon {
-  position: fixed;
-  bottom: 0;
-  right: 1em;
-}
-.gh-link {
-  display: block;
-  color: #fff;
-  transition: .5s;
-}
-.gh-link:hover {
-  color: #777;
-  transform: rotate(360deg);
 }
 
 // other
