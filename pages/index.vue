@@ -26,12 +26,10 @@
 
               <p class="lead mt-3 mb-2 border-bottom">Lingvo</p>
               <dl>
-                <dt>Retejo:</dt>
-                <dd>HTML, CSS, JavaScript, PHP, Ruby, SQL</dd>
-                <dt>Apliko:</dt>
-                <dd>C#, Visual Basic</dd>
-                <dt>Datumoj:</dt>
-                <dd>Python</dd>
+                <dt>Programlingvo:</dt>
+                <dd>HTML, SCSS, TypeScript, PHP, Ruby, SQL, C#, Visual Basic, Python</dd>
+                <dt>Parolanta Lingvo:</dt>
+                <dd>日本語, English, Deutsch, Español, Norsk, Esperanto, Kesen</dd>
               </dl>
 
               <p class="lead mt-3 mb-2 border-bottom">Maŝino</p>
@@ -69,6 +67,22 @@
                 <dt>30 nov 2020</dt>
                 <dd>Atingis niajn vendajn celojn por la jaro</dd>
               </dl>
+
+              <!-- Award History -->
+              <!--
+              <p class="lead mb-3 border-bottom">Premia Historio</p>
+              <dl>
+                <dt>11 apr 2002</dt>
+                <dd>Naskiĝis en Ofunato, gubernio Iwate</dd>
+                <dt>12 apr 2020</dt>
+                <dd>Estis baptita katolika (Baptonomo: Francisko)</dd>
+                <dt>30 apr 2020</dt>
+                <dd>Establis Novalumo Japan G.K.</dd>
+                <dt>30 nov 2020</dt>
+                <dd>Atingis niajn vendajn celojn por la jaro</dd>
+              </dl>
+              -->
+
             </article>
           </section>
 
