@@ -18,7 +18,7 @@
           <div class="collapse navbar-collapse" id="NavbarMenu">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="/blog/">Blogo</a>
+                  <a class="nav-link" href="https://note.com/siraken">Blogo</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="https://github.com/SiraKen" target="_blank" rel="noopener">GitHub</a>
