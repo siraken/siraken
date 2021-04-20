@@ -9,7 +9,7 @@
       <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
           <!-- Logo -->
-          <a class="navbar-brand" href="/">SiraKen.NET</a>
+          <a class="navbar-brand" href="/">Kento Shirasawa</a>
           <!-- Menu Button -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarMenu" aria-controls="NavbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
           <div class="collapse navbar-collapse" id="NavbarMenu">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="https://note.com/siraken">Blogo</a>
+                  <a class="nav-link" href="https://note.com/siraken">Blog</a>
               </li>
               <li class="nav-item">
                   <a class="nav-link" href="https://github.com/SiraKen" target="_blank" rel="noopener">GitHub</a>
@@ -41,8 +41,7 @@
 
     <!-- Footer -->
     <footer class="mx-auto text-center">
-      <p><small>This website is written in <b>Esperanto</b>, symbolized as a peaceful language.</small></p>
-      <span>Copyright © <a href="https://www.novalumo.llc/">Novalumo</a></span>, <span>All rights reserved.</span>
+      <span>Copyright © Kento Shirasawa from <a href="https://www.novalumo.llc/">Novalumo</a></span>, <span>All rights reserved.</span>
     </footer>
 
   </div>
@@ -69,11 +68,11 @@ export default {
         body: true
       },
       {
-        src: '/js/particles.js',
+        src: '/particles.js',
         body: true
       },
       {
-        src: '/js/scroll.js',
+        src: '/scroll.js',
         body: true
       }
     ]
@@ -82,30 +81,27 @@ export default {
 </script>
 
 <style lang="scss">
-// google fonts
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
 
-// body
 body {
   background: linear-gradient(to top, rgb(2, 3, 7), rgb(14, 25, 30), rgb(33, 52, 67));
   color: #fff;
-  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
   min-height: 100vh;
 }
 
-// header
+img, p, dl {
+  pointer-events: none;
+  user-select: none;
+}
+
 .navbar {
   color: #fff !important;
 }
-.navbar-brand {
-  transition: .2s;
-
-  &:hover {
-    transform: scale(1.05);
-  }
+.navbar-brand:hover {
+  opacity: .75;
 }
 
-// footer
 footer {
   width: 100%;
   padding: 1rem 0;
@@ -115,15 +111,9 @@ footer {
 
   a {
     color: #aaa;
-    font-weight: bold;
   }
 }
 
-// other
-.ban {
-  pointer-events: none;
-  user-select: none;
-}
 .nuxt {
   padding: 100px 0;
 }

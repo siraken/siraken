@@ -5,7 +5,7 @@
       <div class="row">
         <div class="col-12">
           <div class="text-center mb-3">
-            <img src="/img/shirasawa_kento.jpg" class="img-fluid rounded-circle mx-auto d-block mb-3 ban" style="max-width: 300px;">
+            <img src="/profile.jpg" class="img-fluid rounded-circle mx-auto d-block mb-3 ban" style="max-width: 300px;">
             <p class="m-0 h1">Kento Shirasawa</p>
             <p class="m-0">（白澤 賢斗 / SiraKen）</p>
           </div>
