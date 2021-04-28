@@ -1,4 +1,4 @@
-# SiraKen.NET - Kento Shirasawa's Official Website
+# Kento Shirasawa's Official Website
 
 ![Build and Deploy](https://github.com/SiraKen/siraken.github.io/workflows/Build%20and%20Deploy/badge.svg)
 
