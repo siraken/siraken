@@ -1,30 +1,30 @@
 <template>
   <div>
 
-    <!-- Particles -->
+    <!-- particles -->
     <div id="particles"></div>
 
-    <!-- Navbar -->
+    <!-- navbar -->
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top">
         <div class="container">
-          <!-- Logo -->
+          <!-- title -->
           <a class="navbar-brand" href="/">Kento Shirasawa</a>
-          <!-- Menu Button -->
+          <!-- button -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarMenu" aria-controls="NavbarMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <!-- Menu -->
+          <!-- menu -->
           <div class="collapse navbar-collapse" id="NavbarMenu">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                  <a class="nav-link" href="https://note.com/siraken">Blog</a>
+                  <a class="nav-link" href="https://note.com/siraken" rel="noopener noreferrer">Blog</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="https://github.com/SiraKen" target="_blank" rel="noopener">GitHub</a>
+                  <a class="nav-link" href="https://github.com/SiraKen" target="_blank" rel="noopener noreferrer">GitHub</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="https://www.youtube.com/channel/UCUUhx5rucm_tYuM0Hbm781g" target="_blank" rel="noopener">
+                <a class="nav-link " href="https://www.youtube.com/channel/UCUUhx5rucm_tYuM0Hbm781g" target="_blank" rel="noopener noreferrer">
                   YouTube
                 </a>
               </li>
@@ -34,14 +34,14 @@
       </nav>
     </header>
 
-    <!-- Content -->
+    <!-- content -->
     <div class="nuxt">
       <Nuxt />
     </div>
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer class="mx-auto text-center">
-      <span>Copyright © Kento Shirasawa from <a href="https://www.novalumo.llc/">Novalumo</a></span>, <span>All rights reserved.</span>
+      <span>&copy; 2020 Kento Shirasawa from <a href="https://www.novalumo.llc/">Novalumo Japan G.K.</a></span>
     </footer>
 
   </div>
@@ -88,6 +88,8 @@ body {
   color: #fff;
   font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, sans-serif;
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 img, p, dl {

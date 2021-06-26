@@ -1,22 +1,27 @@
 <template>
   <div class="container">
 
-      <!-- Me -->
+      <!-- profile image -->
       <div class="row">
         <div class="col-12">
           <div class="text-center mb-3">
-            <img src="/profile.jpg" class="img-fluid rounded-circle mx-auto d-block mb-3 ban" style="max-width: 300px;">
+            <nuxt-img
+              src="/profile.jpg"
+              quality="100"
+              sizes="md:100% lg:300px"
+              class="img-fluid rounded-circle mx-auto d-block mb-3 ban"
+            />
             <p class="m-0 h1">Kento Shirasawa</p>
             <p class="m-0">（白澤 賢斗 / SiraKen）</p>
           </div>
         </div>
       </div>
 
-      <!-- About -->
+      <!-- about -->
       <div class="row mt-2">
         <div class="col-md-6">
 
-          <!-- Overview -->
+          <!-- overview -->
           <section class="bg-dark rounded shadow">
             <article>
 
@@ -24,26 +29,12 @@
               <p>Ĉefoficisto de Novalumo (en Japanio)</p>
               <p>Hobioj inkluzivas spekti amaskomunikilaron, ludi ludojn, lerni lingvojn kaj ludi futbalon.</p>
 
-              <p class="lead mt-3 mb-2 border-bottom">Lingvo</p>
-              <dl>
-                <dt>Programlingvo:</dt>
-                <dd>HTML, SCSS, TypeScript, PHP, Ruby, SQL, C#, Visual Basic, Python</dd>
-                <dt>Parolanta Lingvo:</dt>
-                <dd>日本語, English, Deutsch, Español, Norsk, Esperanto, Kesen</dd>
-              </dl>
+              <p class="lead mt-3 mb-2 border-bottom">Programlingvo</p>
+              <p>HTML, SCSS, TypeScript, PHP, Python, Ruby, C#, Visual Basic</p>
 
-              <p class="lead mt-3 mb-2 border-bottom">Maŝino</p>
-              <dl>
-                <dt>Komputilo:</dt>
-                <dd class="m-0">MacBook Air (Early 2014, Core i7, 8GB RAM)</dd>
-                <dd>Mac mini (2020, Apple Silicon M1, 16GB RAM)</dd>
-                <dt>Telefono:</dt>
-                <dd>iPhone XR 128GB</dd>
-                <dt>Tablojdo:</dt>
-                <dd>iPad Air 4th-Gen 64GB</dd>
-                <dt>Muzika Programaro:</dt>
-                <dd>Apple Logic Pro</dd>
-              </dl>
+              <p class="lead mt-3 mb-2 border-bottom">Komputilo</p>
+              <p>MacBook Air (Early 2014, Core i7, 8GB RAM)</p>
+              <p>Mac mini (2020, Apple Silicon M1, 16GB RAM)</p>
 
             </article>
           </section>
@@ -52,7 +43,7 @@
 
         <div class="col-md-6 mt-3 mt-md-0">
 
-          <!-- Biography -->
+          <!-- biography -->
           <section class="bg-dark rounded shadow">
             <article>
 
@@ -60,28 +51,11 @@
               <dl>
                 <dt>11 apr 2002</dt>
                 <dd>Naskiĝis en Ofunato, gubernio Iwate</dd>
-                <dt>12 apr 2020</dt>
-                <dd>Estis baptita katolika (Baptonomo: Francisko)</dd>
                 <dt>30 apr 2020</dt>
                 <dd>Establis Novalumo Japan G.K.</dd>
                 <dt>30 nov 2020</dt>
                 <dd>Atingis niajn vendajn celojn por la jaro</dd>
               </dl>
-
-              <!-- Award History -->
-              <!--
-              <p class="lead mb-3 border-bottom">Premia Historio</p>
-              <dl>
-                <dt>11 apr 2002</dt>
-                <dd>Naskiĝis en Ofunato, gubernio Iwate</dd>
-                <dt>12 apr 2020</dt>
-                <dd>Estis baptita katolika (Baptonomo: Francisko)</dd>
-                <dt>30 apr 2020</dt>
-                <dd>Establis Novalumo Japan G.K.</dd>
-                <dt>30 nov 2020</dt>
-                <dd>Atingis niajn vendajn celojn por la jaro</dd>
-              </dl>
-              -->
 
             </article>
           </section>
@@ -97,18 +71,19 @@
 export default {}
 </script>
 
-<style>
+<style lang="scss">
 section {
   padding: 18px;
   opacity: .8;
 }
 
-article p {
-  margin: 0;
-}
-
-article a {
-  color: #118cff;
+article {
+  p {
+    margin: 0;
+  }
+  a {
+    color: #118cff;
+  }
 }
 
 summary {

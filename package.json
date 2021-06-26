@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "HOST=0.0.0.0 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
@@ -12,5 +12,8 @@
     "node-sass": "^5.0.0",
     "nuxt": "^2.14.12",
     "sass-loader": "^10.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/image": "^0.4.17"
   }
 }
