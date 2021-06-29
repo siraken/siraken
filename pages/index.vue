@@ -7,8 +7,9 @@
           <div class="text-center mb-3">
             <nuxt-img
               src="/profile.jpg"
+              format="webp"
               quality="100"
-              sizes="md:100% lg:300px"
+              sizes="md:100vw lg:300px"
               class="img-fluid rounded-circle mx-auto d-block mb-3 ban"
             />
             <p class="m-0 h1">Kento Shirasawa</p>
