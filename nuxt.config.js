@@ -2,14 +2,10 @@ export default {
   target: 'static',
   head: {
     title: 'Kento Shirasawa Official Website',
-    htmlAttrs: {
-      lang: 'eo'
-    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'robots', content: 'noindex' },
-      { hid: 'description', name: 'description', content: 'Ĉi tiu estas la oficiala retejo de Kento Shirasawa (SiraKen).' }
+      { hid: 'description', name: 'description', content: 'This is a website of Kento Shirasawa.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -25,10 +21,55 @@ export default {
     '@nuxt/image'
   ],
   modules: [
+    'nuxt-i18n',
   ],
   build: {
   },
   image: {
     // Options
+  },
+  i18n: {
+    seo: true,
+    locales: [
+      // English
+      {
+        code: 'en',
+        iso: 'en',
+        file: 'en.json',
+        name: 'English'
+      },
+      // Esperanto
+      {
+        code: 'eo',
+        iso: 'eo',
+        file: 'eo.json',
+        name: 'Esperanto'
+      },
+      // Bokmål
+      {
+        code: 'nb',
+        iso: 'nb',
+        file: 'nb.json',
+        name: 'Bokmål'
+      },
+      // Deutsch
+      {
+        code: 'de',
+        iso: 'de',
+        file: 'de.json',
+        name: 'Deutsch'
+      },
+      // 日本語
+      // {
+      //   code: 'ja',
+      //   iso: 'ja',
+      //   file: 'ja.json',
+      //   name: '日本語'
+      // },
+    ],
+    defaultLocale: 'en',
+    fallbackLocale: 'en',
+    lazy: true,
+    langDir: 'locales/',
   }
 }
