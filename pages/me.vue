@@ -26,14 +26,9 @@
           <section class="bg-dark rounded shadow">
             <article>
 
-              <p class="lead mb-2 border-bottom">Superrigardo</p>
-              <p>Ĉefoficisto de Novalumo (en Japanio)</p>
-              <p>Hobioj inkluzivas spekti amaskomunikilaron, ludi ludojn, lerni lingvojn kaj ludi futbalon.</p>
-
-              <p class="lead mt-3 mb-2 border-bottom">Programlingvo</p>
-              <p>HTML, SCSS, TypeScript, PHP, Python, Ruby, C#, Visual Basic</p>
-
-              <p class="lead mt-3 mb-2 border-bottom">Komputilo</p>
+              <p class="lead mb-2 border-bottom">Overview</p>
+              <p class="mb-3">Novalumo合同会社 代表社員 / CEO</p>
+              <p>使っているマシン：</p>
               <p>MacBook Air (Early 2014, Core i7, 8GB RAM)</p>
               <p>Mac mini (2020, Apple Silicon M1, 16GB RAM)</p>
 
@@ -48,12 +43,12 @@
           <section class="bg-dark rounded shadow">
             <article>
 
-              <p class="lead mb-3 border-bottom">Biografio</p>
+              <p class="lead mb-3 border-bottom">Biography</p>
               <dl>
-                <dt>11 apr 2002</dt>
-                <dd>Naskiĝis en Ofunato, gubernio Iwate</dd>
-                <dt>30 apr 2020</dt>
-                <dd>Establis Novalumo Japan G.K.</dd>
+                <dt>2002年4月11日</dt>
+                <dd>岩手県大船渡市で生まれる</dd>
+                <dt>2020年4月30日</dt>
+                <dd>Novalumo合同会社を設立</dd>
               </dl>
 
             </article>

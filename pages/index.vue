@@ -5,7 +5,7 @@
         <article class="p-3">
 
           <p class="display-3 font-weight-bold m-0">
-            {{ $t('greeting') }}<nuxt-link to="previous"><span class="display-3 m-0" id="hand">👋</span></nuxt-link>
+            {{ $t('greeting') }}<nuxt-link to="me"><span class="display-3 m-0" id="hand">👋</span></nuxt-link>
           </p>
           <p class="h3 font-weight-bold mb-5">{{ $t('name') }}.</p>
 

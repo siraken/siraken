@@ -59,13 +59,6 @@ export default {
         file: 'de.json',
         name: 'Deutsch'
       },
-      // 日本語
-      // {
-      //   code: 'ja',
-      //   iso: 'ja',
-      //   file: 'ja.json',
-      //   name: '日本語'
-      // },
     ],
     defaultLocale: 'en',
     fallbackLocale: 'en',
