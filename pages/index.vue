@@ -11,10 +11,10 @@
 
           <!-- Esperanto -->
           <div v-if="this.getLocale === 'eo'">
-            <p class="h5 m-0">
+            <p class="h5">
               Mi estas Ĉefoficisto de Novalumo Japan. La retejo de mia kompanio estas <a :href="novalumo" target="_blank" rel="noopener noreferrer">ĉi tie</a>.
             </p>
-            <p class="h5 m-0">
+            <p class="h5">
               Vi povas sekvi min ĉe
               <a :href="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>,
               <a :href="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>,
@@ -29,10 +29,10 @@
 
           <!-- Deutsch -->
           <div v-else-if="this.getLocale === 'de'">
-            <p class="h5 m-0">
+            <p class="h5">
               Ich bin CEO bei Novalumo Japan. Die Website meiner Firma ist <a :href="novalumo" target="_blank" rel="noopener noreferrer">hier</a>.
             </p>
-            <p class="h5 m-0">
+            <p class="h5">
               Du kannst mir auf
               <a :href="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>,
               <a :href="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>,
@@ -48,10 +48,10 @@
 
           <!-- Norsk -->
           <div v-else-if="this.getLocale === 'nb'">
-            <p class="h5 m-0">
+            <p class="h5">
               Jeg er administrerende direktør i Novalumo Japan. Firmaets nettsted er <a :href="novalumo" target="_blank" rel="noopener noreferrer">her</a>.
             </p>
-            <p class="h5 m-0">
+            <p class="h5">
               Du kan følge meg på
               <a :href="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>,
               <a :href="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>,
@@ -66,10 +66,10 @@
 
           <!-- default: English -->
           <div v-else>
-            <p class="h5 m-0">
+            <p class="h5">
               I am CEO at Novalumo Japan. My company's website is <a :href="novalumo" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
-            <p class="h5 m-0">
+            <p class="h5">
               You can follow me on
               <a :href="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>,
               <a :href="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>,
