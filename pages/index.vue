@@ -11,10 +11,10 @@
 
           <!-- Esperanto -->
           <div v-if="this.getLocale === 'eo'">
-            <p class="lead m-0">
+            <p class="h5 m-0">
               Mi estas Ĉefoficisto de Novalumo Japan. La retejo de mia kompanio estas <a :href="novalumo" target="_blank" rel="noopener noreferrer">ĉi tie</a>.
             </p>
-            <p class="lead m-0">
+            <p class="h5 m-0">
               Vi povas sekvi min ĉe
               <a :href="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>,
               <a :href="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>,
@@ -22,17 +22,17 @@
               <a :href="github" target="_blank" rel="noopener noreferrer">GitHub</a>, kaj
               <a :href="note" target="_blank" rel="noopener noreferrer">note.com</a>.
             </p>
-            <p class="lead mb-5">
+            <p class="h5 mb-5">
               Hobioj inkluzivas spekti amaskomunikilaron, ludi ludojn, lerni lingvojn kaj ludi futbalon.
             </p>
           </div>
 
           <!-- Deutsch -->
           <div v-else-if="this.getLocale === 'de'">
-            <p class="lead m-0">
+            <p class="h5 m-0">
               Ich bin CEO bei Novalumo Japan. Die Website meiner Firma ist <a :href="novalumo" target="_blank" rel="noopener noreferrer">hier</a>.
             </p>
-            <p class="lead m-0">
+            <p class="h5 m-0">
               Du kannst mir auf
               <a :href="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>,
               <a :href="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>,
@@ -41,17 +41,17 @@
               <a :href="note" target="_blank" rel="noopener noreferrer">note.com</a>
               folgen.
             </p>
-            <p class="lead mb-5">
+            <p class="h5 mb-5">
               Meine Hobbys sind Medien schauen, Spiele spielen, Sprachen lernen und Fußball spielen.
             </p>
           </div>
 
           <!-- Norsk -->
           <div v-else-if="this.getLocale === 'nb'">
-            <p class="lead m-0">
+            <p class="h5 m-0">
               Jeg er administrerende direktør i Novalumo Japan. Firmaets nettsted er <a :href="novalumo" target="_blank" rel="noopener noreferrer">her</a>.
             </p>
-            <p class="lead m-0">
+            <p class="h5 m-0">
               Du kan følge meg på
               <a :href="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>,
               <a :href="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>,
@@ -59,17 +59,17 @@
               <a :href="github" target="_blank" rel="noopener noreferrer">GitHub</a>, og
               <a :href="note" target="_blank" rel="noopener noreferrer">note.com</a>.
             </p>
-            <p class="lead mb-5">
+            <p class="h5 mb-5">
               Mine hobbyer inkluderer å se på media, spille spill, lære språk og spille fotball.
             </p>
           </div>
 
           <!-- default: English -->
           <div v-else>
-            <p class="lead m-0">
+            <p class="h5 m-0">
               I am CEO at Novalumo Japan. My company's website is <a :href="novalumo" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
-            <p class="lead m-0">
+            <p class="h5 m-0">
               You can follow me on
               <a :href="twitter" target="_blank" rel="noopener noreferrer">Twitter</a>,
               <a :href="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>,
@@ -77,7 +77,7 @@
               <a :href="github" target="_blank" rel="noopener noreferrer">GitHub</a>, and
               <a :href="note" target="_blank" rel="noopener noreferrer">note.com</a>.
             </p>
-            <p class="lead mb-5">
+            <p class="h5 mb-5">
               My hobbies include watching media, playing games, learning languages, and playing football.
             </p>
           </div>
