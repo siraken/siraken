@@ -1,20 +1,25 @@
-# Kento Shirasawa's Official Website
+### Saluton 👋 Mi estas Kento Shirasawa!
 
-![Build and Deploy](https://github.com/SiraKen/siraken.github.io/workflows/Build%20and%20Deploy/badge.svg)
+- 💼 CEO of [Novalumo Japan G.K.][novalumo]
+- 🏠 I live in Ofunato, Iwate, Japan.
+- 🌐 I speak Japanese, English.
+- 🌱 I’m learning TypeScript, foreign languages.
+- 🔭 I'm currently working on a new project.
+- 💬 You can reach me on [Twitter][tw], [Facebook][fb], [Email][em], and [issues][issues].
 
-## Build Setup
+[tw]: https://twitter.com/shirasawa_kento
+[fb]: https://www.facebook.com/shirasawa.kento/
+[em]: mailto:shirasawa@siraken.net
+[novalumo]: https://www.novalumo.llc/
+[issues]: https://github.com/SiraKen/SiraKen/issues/new?assignees=&labels=&template=hello.md&title=Hello%21
 
-```bash
-# install dependencies
-$ yarn install
+<!--
+**SiraKen/SiraKen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+Here are some ideas to get you started:
 
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
