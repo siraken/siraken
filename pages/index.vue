@@ -67,7 +67,7 @@
           <!-- default: English -->
           <div v-else>
             <p class="h5">
-              I am CEO at Novalumo Japan. My company's website is <a :href="novalumo" target="_blank" rel="noopener noreferrer">here</a>.
+              I am CEO of Novalumo Japan. My company's website is <a :href="novalumo" target="_blank" rel="noopener noreferrer">here</a>.
             </p>
             <p class="h5">
               You can follow me on
@@ -85,12 +85,6 @@
           <p class="h5 font-weight-bold">{{ $t('heading.code') }}:</p>
           <p>
             HTML, SCSS, JavaScript(and TS), PHP, Python, Ruby, C#, Visual Basic
-          </p>
-
-          <p class="h5 font-weight-bold">{{ $t('heading.machine') }}:</p>
-          <p>
-            MacBook Air (Early 2014, Core i7, 8GB RAM)<br>
-            Mac mini (2020, Apple Silicon M1, 16GB RAM)
           </p>
 
           <p class="mt-5">
