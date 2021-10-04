@@ -82,11 +82,6 @@
             </p>
           </div>
 
-          <p class="h5 font-weight-bold">{{ $t('heading.code') }}:</p>
-          <p>
-            HTML, SCSS, JavaScript(and TS), PHP, Python, Ruby, C#, Visual Basic
-          </p>
-
           <p class="mt-5">
             <nuxt-link
               v-for="locale in locales"
