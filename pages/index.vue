@@ -12,7 +12,7 @@
           <!-- Esperanto -->
           <div v-if="this.getLocale === 'eo'">
             <p class="h5">
-              Mi estas Ĉefoficisto de Novalumo Japan. La retejo de mia kompanio estas <a :href="novalumo" target="_blank" rel="noopener noreferrer">ĉi tie</a>.
+              Mi estas Ĉefoficisto de <a :href="novalumo" target="_blank" rel="noopener noreferrer">Novalumo</a>.
             </p>
             <p class="h5">
               Vi povas sekvi min ĉe
@@ -30,7 +30,7 @@
           <!-- Deutsch -->
           <div v-else-if="this.getLocale === 'de'">
             <p class="h5">
-              Ich bin CEO bei Novalumo Japan. Die Website meiner Firma ist <a :href="novalumo" target="_blank" rel="noopener noreferrer">hier</a>.
+              Ich bin CEO bei <a :href="novalumo" target="_blank" rel="noopener noreferrer">Novalumo</a>.
             </p>
             <p class="h5">
               Du kannst mir auf
@@ -49,7 +49,7 @@
           <!-- Norsk -->
           <div v-else-if="this.getLocale === 'nb'">
             <p class="h5">
-              Jeg er administrerende direktør i Novalumo Japan. Firmaets nettsted er <a :href="novalumo" target="_blank" rel="noopener noreferrer">her</a>.
+              Jeg er administrerende direktør i <a :href="novalumo" target="_blank" rel="noopener noreferrer">Novalumo</a>.
             </p>
             <p class="h5">
               Du kan følge meg på
@@ -67,7 +67,7 @@
           <!-- default: English -->
           <div v-else>
             <p class="h5">
-              I am CEO of Novalumo Japan. My company's website is <a :href="novalumo" target="_blank" rel="noopener noreferrer">here</a>.
+              I am CEO of <a :href="novalumo" target="_blank" rel="noopener noreferrer">Novalumo</a>.
             </p>
             <p class="h5">
               You can follow me on
