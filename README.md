@@ -1,10 +1,11 @@
 ### Saluton 👋 Mi estas Kento Shirasawa!
 
-- 💼 CEO of [Novalumo Japan G.K.][novalumo]
+- 💼 CEO of [Novalumo][novalumo].
 - 🏠 I live in Ofunato, Iwate, Japan.
 - 🌐 I speak Japanese, English.
-- 🌱 I’m learning TypeScript, foreign languages.
+- 🌱 I'm learning TypeScript, C Lang, C#, and foreign spoken languages.
 - 🔭 I'm currently working on a new project.
+- 🤔 I'm looking for help with...
 - 💬 You can reach me on [Twitter][tw], [Facebook][fb], [Email][em], and [issues][issues].
 
 [tw]: https://twitter.com/shirasawa_kento
@@ -18,8 +19,7 @@
 
 Here are some ideas to get you started:
 
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
+- 👯 I'm looking to collaborate on ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
