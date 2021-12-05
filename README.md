@@ -8,6 +8,7 @@
 - 🤔 I'm looking for help with...
 - 💬 You can reach me on [Twitter][tw], [Facebook][fb], [Email][em], and [issues][issues].
 
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiraKen)](https://github.com/anuraghazra/github-readme-stats)
 [![SiraKen's GitHub stats](https://github-readme-stats.vercel.app/api?username=SiraKen)](https://github.com/anuraghazra/github-readme-stats)
 
 [tw]: https://twitter.com/shirasawa_kento
