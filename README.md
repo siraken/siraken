@@ -11,7 +11,7 @@ Please feel free to reach me on [Twitter](tw), [Facebook](fb), and [Email](em).
 
 ### Fun fact
 
-- I am pretty dumb🤯
+- I'm pretty dumb🤯
 - ...
 
 ## Summary
