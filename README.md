@@ -2,7 +2,7 @@
 
 I'm just an engineer in Iwate Pref., Japan. And I'm the CEO of [Novalumo](https://www.novalumo.llc/).
 
-Please feel free to reach me on [Twitter](https://twitter.com/shirasawa_kento), [Facebook](https://www.facebook.com/shirasawa.kento/), or [Instagram](https://www.instagram.com/shirasawa_kento/).
+Please feel free to contact me on [Twitter](https://twitter.com/shirasawa_kento), [Facebook](https://www.facebook.com/shirasawa.kento/), [Instagram](https://www.instagram.com/shirasawa_kento/), or [LinkedIn](https://www.linkedin.com/in/siraken/). (I may be slow to reply...)
 
 ### What I like
 
