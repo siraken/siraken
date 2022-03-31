@@ -13,6 +13,7 @@ Please feel free to reach me on [Twitter](https://twitter.com/shirasawa_kento), 
 ### Fun fact
 
 - I'm pretty dumb🤯
+- I don't speak foreign languages well (even though I learn hard every day).
 - ...
 
 ## Summary
