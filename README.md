@@ -8,12 +8,13 @@ Please feel free to contact me on [Twitter](https://twitter.com/shirasawa_kento)
 
 - Learning languages (often use Duolingo)
 - Watching anime and VTubers
+- Internet culture like memes, MADs, etc.
 - ...
 
 ### Fun fact
 
 - I'm pretty dumb🤯
-- I don't speak foreign languages well (even though I learn hard every day).
+- I don't speak foreign languages well (even though I learn hard every day😓)
 - ...
 
 ## Summary
