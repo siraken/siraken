@@ -1,20 +1,20 @@
 ## Saluton 👋 Mi estas Kento Shirasawa!
 
-I'm just an engineer in Iwate Pref., Japan. And I'm the CEO of [Novalumo](https://www.novalumo.llc/).
+CEO of [Novalumo](https://www.novalumo.llc/). I'm just an engineer in Japan. Here is my website: [SiraKen.NET](https://www.siraken.net/)
 
-Please feel free to contact me on [Twitter](https://twitter.com/shirasawa_kento), [Facebook](https://www.facebook.com/shirasawa.kento/), [Instagram](https://www.instagram.com/shirasawa_kento/), or [LinkedIn](https://www.linkedin.com/in/siraken/). (I may be slow to reply...)
+You can follow me on [Twitter](https://twitter.com/shirasawa_kento), [Facebook](https://www.facebook.com/shirasawa.kento/), [Instagram](https://www.instagram.com/shirasawa_kento/), or [LinkedIn](https://www.linkedin.com/in/siraken/). (If I get any messages, I may be slow to reply...)
 
-### What I like
+### What I love
 
-- Learning languages (often use Duolingo)
+- Learning languages (often use **[Duolingo](https://www.duolingo.com/)**)
 - Watching anime and VTubers
 - Internet culture like memes, MADs, etc.
 - ...
 
 ### Fun fact
 
-- I'm pretty dumb🤯
-- I don't speak foreign languages well (even though I learn hard every day😓)
+- I'm **so stupid**🤯
+- I do **not speak foreign languages well** (even though I learn hard every day😓)
 - ...
 
 ## Summary
