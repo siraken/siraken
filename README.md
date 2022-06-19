@@ -20,4 +20,4 @@ You can follow me on [Twitter](https://twitter.com/shirasawa_kento), [Facebook](
 ## Summary
 
 [![SiraKen's GitHub stats](https://github-readme-stats.vercel.app/api?username=SiraKen&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiraKen&layout=compact&hide=html,css,scss,shaderlab)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiraKen&langs_count=8&layout=compact&hide=html,css,scss,shaderlab)](https://github.com/anuraghazra/github-readme-stats)
