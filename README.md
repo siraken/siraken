@@ -43,7 +43,7 @@ CEO of [Novalumo](https://www.novalumo.llc/). I'm just a geek in Japan.
 
 <div align="center">
 
-🇯 ja_JP / 🇺 en_US 
+🇯🇵 ja_JP / 🇺🇸 en_US 
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=javascript&logoColor=white)
