@@ -34,7 +34,7 @@ CEO of [Novalumo](https://www.novalumo.llc/). I'm just a geek in Japan.
 ![Vim](https://img.shields.io/badge/Vim-019733?style=flat-square&logo=vim&logoColor=white)
 ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5c2D91?style=flat-square&logo=visualstudio&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white)
 
 </div>
@@ -92,7 +92,7 @@ CEO of [Novalumo](https://www.novalumo.llc/). I'm just a geek in Japan.
 - `lrw-r--r--` `siraken` [Facebook](https://www.facebook.com/shirasawa.kento/)
 - `lrw-r--r--` `siraken` [Instagram](https://www.instagram.com/shirasawa_kento/)
 - `lrw-r--r--` `siraken` [LinkedIn](https://www.linkedin.com/in/siraken/)
-- `lrw-r--r--` `siraken` [Website: SiraKen.NET](https://www.siraken.net/)
+- `lrw-r--r--` `siraken` [SiraKen.NET](https://www.siraken.net/)
 
 ## ❯ gh stats
 
