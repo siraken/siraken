@@ -48,7 +48,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white)
 
-Learning
+Learning:
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![Golang](https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white)
@@ -77,12 +77,15 @@ Learning
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-333333?style=flat-square&logo=unity)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+![Adobe CC](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=flat-square&logo=adobecreativecloud)
+
+I'm learnning cloud platforms:
+
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0078D7?style=flat-square&logo=microsoftazure&logoColor=white)
-
-![Adobe CC](https://img.shields.io/badge/Adobe%20Creative%20Cloud-DA1F26?style=flat-square&logo=adobecreativecloud)
 
 </div>
 
