@@ -1,20 +1,17 @@
 ## ❯ whoami
 
 <div align="center">
-Saluton 👋 Mi estas Kento Shirasawa!
 
-CEO of [Novalumo](https://www.novalumo.llc/). I'm just a geek in Japan.
+<h3>Saluton 👋 Mi estas Kento Shirasawa!</h3>
+
 </div>
 
-### ❯ echo $LOVE
+### ❯ echo $ABOUT
 
-- [![Duolingo](https://img.shields.io/badge/Duolingo-58CC02?style=flat-square&logo=duolingo&logoColor=white)](https://www.duolingo.com/) is a method for me to learn many languages
-- Watching anime and VTubers
-- Internet culture like memes, MADs, etc.
-- Sleeping😴
-
-### ❯ cat FUN_FACT
-
+- CEO of [Novalumo](https://www.novalumo.llc/). I'm just a geek in Japan.
+- [![Duolingo](https://img.shields.io/badge/Duolingo-58CC02?style=flat-square&logo=duolingo&logoColor=white)](https://www.duolingo.com/) is one of the methods for me to learn many languages
+- Watching **anime** and **VTubers**, reading **manga**(comic)
+- I love sleeping😴
 - I'm **so stupid**🤯
 - I do **not speak foreign languages well** (even though I learn hard every day😓)
 
@@ -50,6 +47,9 @@ CEO of [Novalumo](https://www.novalumo.llc/). I'm just a geek in Japan.
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=Ruby&logoColor=white)
+
+Learning
+
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![Golang](https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-C36241?style=flat-square&logo=rust&logoColor=white)
