@@ -6,7 +6,7 @@
 
 </div>
 
-### ❯ echo $ABOUT
+## ❯ echo $ABOUT
 
 - CEO of [Novalumo](https://www.novalumo.llc/). I'm just a geek in Japan.
 - [![Duolingo](https://img.shields.io/badge/Duolingo-58CC02?style=flat-square&logo=duolingo&logoColor=white)](https://www.duolingo.com/) is one of the methods for me to learn many languages
