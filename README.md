@@ -53,9 +53,8 @@ Learning:
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
 ![Golang](https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-C36241?style=flat-square&logo=rust&logoColor=white)
+![Clojure](https://img.shields.io/badge/Clojure-5881D8?style=flat-square&logo=clojure&logoColor=white)
 
-<!-- [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiraKen&langs_count=10&layout=compact&hide=html,javascript,css,scss,shaderlab,hlsl,jupyter%20notebook)](https://github.com/anuraghazra/github-readme-stats) -->
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiraKen&langs_count=10&theme=tokyonight&layout=compact&hide=html,javascript,css,scss,shaderlab,hlsl,jupyter%20notebook)](https://github.com/anuraghazra/github-readme-stats)
 </div>
 
 ## ❯ echo $STACK
@@ -98,6 +97,9 @@ I'm learnning cloud platforms:
 - `lrw-r--r--` `siraken` [SiraKen.NET](https://www.siraken.net/)
 
 ## ❯ gh stats
+
+<!-- [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiraKen&langs_count=10&layout=compact&hide=html,javascript,css,scss,shaderlab,hlsl,jupyter%20notebook)](https://github.com/anuraghazra/github-readme-stats) -->
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiraKen&langs_count=10&theme=tokyonight&layout=compact&hide=html,javascript,css,scss,shaderlab,hlsl,jupyter%20notebook)](https://github.com/anuraghazra/github-readme-stats)
 
 <!-- [![SiraKen's GitHub stats](https://github-readme-stats.vercel.app/api?username=SiraKen&show_icons=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats) -->
 [![SiraKen's GitHub stats](https://github-readme-stats.vercel.app/api?username=SiraKen&show_icons=true&count_private=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
