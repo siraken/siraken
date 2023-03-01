@@ -1,7 +1,5 @@
 ### Saluton 👋 Mi estas Kento Shirasawa!
 
-I'm the CEO and an engineer of [Novalumo](https://github.com/novalumo), and just a stupid geek.
-
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SiraKen&langs_count=10&theme=tokyonight&layout=compact&hide=html,javascript,css,scss,shaderlab,hlsl,jupyter%20notebook)](https://github.com/anuraghazra/github-readme-stats)
 
 [![SiraKen's GitHub stats](https://github-readme-stats.vercel.app/api?username=SiraKen&show_icons=true&count_private=true&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
