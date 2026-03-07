@@ -39,16 +39,32 @@ Building products and services at [@novalumo](https://github.com/novalumo). Inte
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=siraken&show_icons=true&theme=github_dark&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=siraken&show_icons=true&theme=default&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api?username=siraken&show_icons=true&theme=default&hide_border=true" alt="GitHub Stats" />
+    <source media="(prefers-color-scheme: dark)" srcset="dist/stats-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="dist/stats-light.svg" />
+    <img src="dist/stats-light.svg" alt="GitHub Stats" />
   </picture>
 </p>
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=siraken&layout=compact&theme=github_dark&hide_border=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=siraken&layout=compact&theme=default&hide_border=true" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siraken&layout=compact&theme=default&hide_border=true" alt="Top Langs" />
+    <source media="(prefers-color-scheme: dark)" srcset="dist/streak-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="dist/streak-light.svg" />
+    <img src="dist/streak-light.svg" alt="Streak Stats" />
+  </picture>
+</p>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/top-langs-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="dist/top-langs-light.svg" />
+    <img src="dist/top-langs-light.svg" alt="Top Languages" />
+  </picture>
+</p>
+
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/activity-graph-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="dist/activity-graph-light.svg" />
+    <img src="dist/activity-graph-light.svg" alt="Activity Graph" />
   </picture>
 </p>
