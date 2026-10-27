@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Kento Shirasawa's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 1292, Total PRs: 212, Total Issues: 111, Contributed to (last year): 7</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  (last year) : 1298, Total PRs: 212, Total Issues: 111, Contributed to (last year): 7</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 94.22086243767762;
+        stroke-dashoffset: 94.2016405983689;
       }
     }
   
